@@ -1,93 +1,93 @@
 @ECHO OFF
 echo clear_lib...
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.scale\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.scale\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.resource\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.resource\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.jsp\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.jsp\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.tomcat\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.tomcat\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.gl\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.gl\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.acsrf\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.acsrf\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.route\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.route\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.domain\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.domain\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.license\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.license\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.network\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.network\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.calender\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.calender\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.servlet\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.servlet\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.allow\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.allow\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.txt\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.txt\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.rev\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.rev\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.cfg\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.cfg\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.link\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.link\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.restbl\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.restbl\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.report\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.report\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.rql.buffer\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.rql.buffer\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.login\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.login\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.boot\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.boot\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.loginunsafe\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.loginunsafe\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.loginmaster\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.loginmaster\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.file\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.file\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.table\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.table\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.report\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.report\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.hash.allow\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.hash.allow\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\lib\com.tugalsan.lib.contact\target
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.contact\target
 IF EXIST %F% RMDIR /S /Q %F%
 

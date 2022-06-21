@@ -2,95 +2,95 @@
 
 echo clear_gwt.client...
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-cooking-gl\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-cooking-gl\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-cooking-gwt\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-cooking-com.tugalsan\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-cooking-js\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-cooking-js\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-db\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-db\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-files\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-files\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-html\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-html\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-initialize\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-initialize\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-login\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-login\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-msg\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-msg\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-other\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-other\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-services\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-services\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-sql\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-sql\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-asw-tm\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-asw-tm\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-color\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-color\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-initialize\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-initialize\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\client-app-test\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\client-app-test\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 
 
 echo clear_gwt.server...
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw-gwt-report\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw-gwt-report\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw-common\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw-common\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw-files\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw-files\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw-gwt\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw-com.tugalsan\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw-sh\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw-sh\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-asw-user\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-asw-user\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-backup\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-backup\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-color\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-color\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-initialize\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-initialize\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-make\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-make\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\server-app-test\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\server-app-test\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 
@@ -100,20 +100,20 @@ IF EXIST %F% RMDIR /S /Q %F%
 
 echo clear_gwt.shared...
 
-SET F=C:\me\codes\GWT\GWT\shared-app-asw-files\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\shared-app-asw-files\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\shared-app-asw-gwt\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\shared-app-asw-com.tugalsan\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\shared-app-asw-gwt-report\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\shared-app-asw-gwt-report\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\shared-app-asw-gwt-user\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\shared-app-asw-gwt-user\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\shared-app-asw-sh\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\shared-app-asw-sh\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=C:\me\codes\GWT\GWT\shared-app-color\target
+SET F=C:\me\codes\com.tugalsan\com.tugalsan\shared-app-color\target
 IF EXIST %F% RMDIR /S /Q %F%
