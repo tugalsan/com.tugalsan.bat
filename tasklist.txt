@@ -1,0 +1,4 @@
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+cmd.exe                      13536 Console                    1      5.808 K
