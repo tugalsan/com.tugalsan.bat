@@ -3,7 +3,22 @@ echo compile_api...
 
 set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot
 
+echo API00
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.executable
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 12/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.compiler
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 07/87 module
+
+
 echo API01
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.unsafe
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 12/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 00/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.os.sensor
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 01/87 module
@@ -22,9 +37,6 @@ echo api 05/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.validator
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 06/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.compiler
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 07/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.pack
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 08/87 module
@@ -37,9 +49,6 @@ echo api 10/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.converter
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 11/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.executable
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 12/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.js
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 13/87 module

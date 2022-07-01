@@ -2,6 +2,10 @@
 echo clear_api...
 
 echo API00
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.unsafe\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop\target
+IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.profile\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.os.sensor\target
