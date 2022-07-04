@@ -12,9 +12,12 @@ cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.enc
 echo api 07/87 module
 
 
-echo API01
+echo API00.5
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.unsafe
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+
+
+echo API01
 echo api 12/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
