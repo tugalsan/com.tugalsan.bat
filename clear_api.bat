@@ -70,6 +70,8 @@ SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.list\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 echo API05
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.file.tree\target
+IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.file.csv\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.storage.cookie\target

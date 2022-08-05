@@ -3,19 +3,46 @@ echo compile_api...
 
 set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot
 
-echo API00
+echo API00.MS0
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.executable
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 12/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.compiler
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 07/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.clone
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 05/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.validator
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 06/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.pack
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 08/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.shape
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 03/87 module
 
 
-echo API00.5
+echo API00.MS1
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.unsafe
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 
+
+echo API00.MS2
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.coronator
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 12/87 module
+
+echo API00.MS3
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.string
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 09/87 module
+
+echo API00.MS4
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.log
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 15/87 module
 
 echo API01
 echo api 12/87 module
@@ -28,24 +55,9 @@ echo api 01/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.hex
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 02/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.shape
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 03/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.charset
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 04/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.clone
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 05/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.validator
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 06/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.pack
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 08/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.string
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 09/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.bytes
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 10/87 module
@@ -60,12 +72,6 @@ cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.enc
 echo api 14/87 module
 
 echo API02
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.coronator
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 12/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.log
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 15/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.cast
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 16/87 module
@@ -75,6 +81,9 @@ echo api 17/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.stream
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 18/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.random
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 21/87 module
 
 echo API03
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.time
@@ -83,9 +92,6 @@ echo api 19/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.calender
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 20/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.random
-cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
-echo api 21/87 module
 
 echo API04
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.os
@@ -96,6 +102,9 @@ cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.enc
 echo api 24/87 module
 
 echo API05
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.tree
+cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
+echo api 23/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.loremipsum
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -Dfile.encoding=UTF-8 clean install -DskipTests -q
 echo api 23/87 module
