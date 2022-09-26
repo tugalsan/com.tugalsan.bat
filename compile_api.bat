@@ -94,12 +94,14 @@ cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTes
 echo api 20/87 module
 
 echo API04
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.os
-cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
-echo api 22/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.list
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 echo api 24/87 module
+
+echo API04.5
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.os
+cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
+echo api 22/87 module
 
 echo API05
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.tree
