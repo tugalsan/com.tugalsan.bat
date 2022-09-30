@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_api...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-18.0.2.101-hotspot
+set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
 
 echo API00.MS0
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.executable
