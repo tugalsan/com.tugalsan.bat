@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_lib_partially...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot
+set JAVA_HOME=c:\java
 
 
 cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.file

@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_api...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+set JAVA_HOME=c:\java
 
 echo API00.MS0
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.executable
@@ -72,6 +72,12 @@ cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTes
 echo api 14/87 module
 
 echo API02
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.servlet.charset
+cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
+echo api 16/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.servlet.charset.deprecated
+cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
+echo api 16/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.cast
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 echo api 16/87 module

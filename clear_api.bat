@@ -40,6 +40,10 @@ SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.file.obj\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 echo API02
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.servlet.charset.deprecated\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.servlet.charset\target
+IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.coronator\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.log\target

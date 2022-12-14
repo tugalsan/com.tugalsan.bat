@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_api_pretty...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot
+set JAVA_HOME=c:\java
 
 cd C:\me\codes\com.tugalsan\api\api-pack
 cmd /c "C:\Program Files\NetBeans-13\netbeans\java\maven\bin\mvn.cmd" -T 1C -Dfile.encoding=UTF-8 clean install -DskipTests -e -X

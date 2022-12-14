@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_lib...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+set JAVA_HOME=c:\java
 
 cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.scale
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q

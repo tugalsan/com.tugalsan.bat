@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_spi...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+set JAVA_HOME=c:\java
 
 cd C:\me\codes\com.tugalsan\spi\com.tugalsan.spi.acsrf
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q

@@ -1,7 +1,7 @@
 @ECHO OFF
 echo compile_api...
 
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot
+set JAVA_HOME=c:\java
 
 
 echo API20
