@@ -30,6 +30,8 @@ cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTes
 
 
 echo API00.MS2
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop
+cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.coronator
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 echo api 12/87 module

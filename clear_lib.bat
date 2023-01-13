@@ -1,6 +1,9 @@
 @ECHO OFF
 echo clear_lib...
 
+SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.vnc.desktop\target
+IF EXIST %F% RMDIR /S /Q %F%
+
 SET F=C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.scale\target
 IF EXIST %F% RMDIR /S /Q %F%
 

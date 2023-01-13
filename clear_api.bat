@@ -12,6 +12,8 @@ SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.os.sensor\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 echo API01
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop\target
+IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.hex\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.shape\target
