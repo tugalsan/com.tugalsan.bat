@@ -47,9 +47,6 @@ cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTes
 echo api 15/87 module
 
 echo API01
-echo api 12/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop
-cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 echo api 00/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.os.sensor
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
@@ -154,6 +151,8 @@ cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTes
 echo api 33/87 module
 
 echo API08
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.ftp
+cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.url
 cmd /c "C:\me\codes\ide\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q
 echo api 34/87 module
