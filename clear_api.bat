@@ -22,7 +22,7 @@ SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.charset\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.clone\target
 IF EXIST %F% RMDIR /S /Q %F%
-SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.compiler\target
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.callable\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.validator\target
 IF EXIST %F% RMDIR /S /Q %F%
@@ -34,7 +34,7 @@ SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.bytes\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.converter\target
 IF EXIST %F% RMDIR /S /Q %F%
-SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.executable\target
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.runnable\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.js\target
 IF EXIST %F% RMDIR /S /Q %F%
