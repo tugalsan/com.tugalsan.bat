@@ -60,8 +60,6 @@ IF EXIST %F% RMDIR /S /Q %F%
 echo API03
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.time\target
 IF EXIST %F% RMDIR /S /Q %F%
-SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.calender\target
-IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.random\target
 IF EXIST %F% RMDIR /S /Q %F%
 
@@ -235,4 +233,15 @@ SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.id\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.input\target
 IF EXIST %F% RMDIR /S /Q %F%
+
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.servlet.http\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.serialcom\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=C:\me\codes\com.tugalsan\api\com.tugalsan.api.serialcom.kincony\target
+IF EXIST %F% RMDIR /S /Q %F%
+
+
 

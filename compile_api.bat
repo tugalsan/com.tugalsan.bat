@@ -32,8 +32,6 @@ cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install 
 
 
 echo API00.MS2
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop
-cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.coronator
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 12/87 module
@@ -90,12 +88,11 @@ cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install 
 echo api 21/87 module
 
 echo API03
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.desktop
+cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.time
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 19/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.calender
-cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
-echo api 20/87 module
 
 echo API04
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.list
@@ -338,7 +335,15 @@ echo api 86/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.input
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 87/87 module
-
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.servlet.http
+cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
+echo api 87/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.serialcom
+cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
+echo api 87/87 module
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.serialcom.kincony
+cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
+echo api 87/87 module
 goto exit
 :exit
 cd C:\me\codes\com.tugalsan\com.tugalsan.bat
