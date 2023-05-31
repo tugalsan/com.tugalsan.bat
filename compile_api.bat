@@ -18,7 +18,7 @@ echo api 05/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.validator
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 06/87 module
-cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.pack
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.tuple
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 08/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.shape

@@ -15,10 +15,6 @@ cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.jsp
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo lib 03/31
 
-cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.tomcat
-cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
-echo lib 04/31
-
 cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.gl
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo lib 05/31
@@ -26,6 +22,10 @@ echo lib 05/31
 cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.acsrf
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo lib 06/31
+
+cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.tomcat
+cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
+echo lib 04/31
 
 cd C:\me\codes\com.tugalsan\lib\com.tugalsan.lib.route
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
