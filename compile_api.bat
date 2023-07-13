@@ -326,6 +326,9 @@ cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install 
 echo api 84/87 module
 
 echo API21
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.file.pom
+cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
+echo api 83/87 module
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.captcha
 cmd /c "C:\me\codes\ide\netbeans\netbeans\java\maven\bin\mvn.cmd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 85/87 module
