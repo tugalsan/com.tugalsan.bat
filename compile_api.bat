@@ -34,6 +34,8 @@ cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
 echo API00.MS2
 cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.coronator
 cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
+cd C:\me\codes\com.tugalsan\api\com.tugalsan.api.file.gif
+cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
 echo api 12/87 module
 
 echo API00.MS3
