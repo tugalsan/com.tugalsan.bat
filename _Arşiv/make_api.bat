@@ -1,7 +1,5 @@
 @ECHO OFF
 echo GWT.make...
-d:
-cd d:\git
 
 ECHO.
 ECHO timer started
@@ -14,13 +12,11 @@ CALL:timer
 
 :: We put some code we want to measure
 cls
-cmd /c clear_app.bat
-cmd /c compile_app.bat
-cmd /c clear_app.bat
-:: cmd /c bip.bat
-:: cmd /c bip.bat
-:: cmd /c bip.bat
-:: cmd /c bip.bat
+cmd /c clear_repo_tugalsan.bat
+cmd /c clear_api.bat
+cmd /c compile_api.bat
+cmd /c clear_api.bat
+cmd /c bip.bat
 
 :: Now we call the function again with the desired parameters
 
