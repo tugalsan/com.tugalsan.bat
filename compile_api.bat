@@ -70,12 +70,6 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 14/87 module
 
 echo API02
-cd d:\git\api\com.tugalsan.api.servlet.charset
-cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
-echo api 16/87 module
-cd d:\git\api\com.tugalsan.api.servlet.charset.deprecated
-cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
-echo api 16/87 module
 cd d:\git\api\com.tugalsan.api.cast
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 16/87 module
@@ -149,6 +143,12 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 33/87 module
 
 echo API08
+cd d:\git\api\com.tugalsan.api.servlet.charset
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+echo api 16/87 module
+cd d:\git\api\com.tugalsan.api.servlet.charset.deprecated
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+echo api 16/87 module
 cd d:\git\api\com.tugalsan.api.ftp
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 cd d:\git\api\com.tugalsan.api.url

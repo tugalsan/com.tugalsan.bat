@@ -46,10 +46,6 @@ SET F=d:\git\api\com.tugalsan.api.file.obj\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 echo API02
-SET F=d:\git\api\com.tugalsan.api.servlet.charset.deprecated\target
-IF EXIST %F% RMDIR /S /Q %F%
-SET F=d:\git\api\com.tugalsan.api.servlet.charset\target
-IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\api\com.tugalsan.api.coronator\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\api\com.tugalsan.api.log\target
@@ -75,6 +71,10 @@ IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\api\com.tugalsan.api.loremipsum\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\api\com.tugalsan.api.list\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=d:\git\api\com.tugalsan.api.servlet.charset.deprecated\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=d:\git\api\com.tugalsan.api.servlet.charset\target
 IF EXIST %F% RMDIR /S /Q %F%
 
 echo API05
