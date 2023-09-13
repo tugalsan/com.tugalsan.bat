@@ -133,6 +133,8 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 31/87 module
 
 echo API06
+cd d:\git\api\com.tugalsan.api.socket
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates 
 cd d:\git\api\com.tugalsan.api.icon
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 32/87 module
