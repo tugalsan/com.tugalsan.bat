@@ -4,6 +4,8 @@ d:
 cd d:\git
 
 echo API00.MS0
+cd d:\git\api\com.tugalsan.api.optional
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates 
 cd d:\git\api\com.tugalsan.api.charset
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates 
 cd d:\git\api\com.tugalsan.api.runnable
@@ -32,6 +34,8 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 
 
 echo API00.MS2
+cd d:\git\api\com.tugalsan.api.annotation
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 cd d:\git\api\com.tugalsan.api.coronator
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 cd d:\git\api\com.tugalsan.api.file.gif
@@ -84,8 +88,6 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 21/87 module
 
 echo API03
-cd d:\git\api\com.tugalsan.api.desktop
-cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 cd d:\git\api\com.tugalsan.api.time
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 19/87 module
@@ -99,12 +101,12 @@ echo API04.5
 cd d:\git\api\com.tugalsan.api.os
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 22/87 module
+cd d:\git\api\com.tugalsan.api.loremipsum
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+echo api 23/87 module
 
 echo API05
 cd d:\git\api\com.tugalsan.api.tree
-cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
-echo api 23/87 module
-cd d:\git\api\com.tugalsan.api.loremipsum
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 23/87 module
 cd d:\git\api\com.tugalsan.api.thread
@@ -145,6 +147,9 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 33/87 module
 
 echo API08
+cd d:\git\api\com.tugalsan.api.file.ra
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+echo api 16/87 module
 cd d:\git\api\com.tugalsan.api.servlet.charset
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 16/87 module
@@ -349,6 +354,18 @@ echo api 87/87 module
 cd d:\git\api\com.tugalsan.api.serialcom.kincony
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 87/87 module
+
+
+echo API22
+cd d:\git\api\com.tugalsan.api.console
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+
+echo API23
+cd d:\git\api\com.tugalsan.api.desktop
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+
+
+
 goto exit
 :exit
-cd d:\git\com.tugalsan.bat
+cd d:\git\bat\com.tugalsan.bat

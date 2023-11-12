@@ -3,6 +3,14 @@ echo compile_lib...
 d:
 cd d:\git
 
+cd d:\git\lib\com.tugalsan.lib.cloud
+cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
+echo lib 01/31
+
+cd d:\git\lib\com.tugalsan.lib.time
+cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
+echo lib 01/31
+
 cd d:\git\lib\com.tugalsan.lib.scale
 cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
 echo lib 01/31
