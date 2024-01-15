@@ -59,4 +59,3 @@ cd d:\git\app\com.tugalsan.app.table
 cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
 echo app 14/14
 
-cd d:\git\com.tugalsan.bat
