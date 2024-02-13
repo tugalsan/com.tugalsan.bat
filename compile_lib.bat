@@ -125,6 +125,11 @@ cd d:\git\lib\com.tugalsan.lib.hash.allow
 cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
 echo lib 29/31
 
+echo API24
+cd d:\git\lib\com.tugalsan.lib.file.tmcr
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
+echo api 12/87 module
+
 cd d:\git\lib\com.tugalsan.lib.report
 cmd /c "mvnd" clean install -DskipTests -q versions:display-dependency-updates
 echo lib 30/31

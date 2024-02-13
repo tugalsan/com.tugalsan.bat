@@ -172,6 +172,8 @@ cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 37/87 module
 
 echo API09
+cd d:\git\api\com.tugalsan.api.file.common
+cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates 
 cd d:\git\api\com.tugalsan.api.profile
 cmd /c mvnd clean install -DskipTests -q versions:display-dependency-updates
 echo api 38/87 module
