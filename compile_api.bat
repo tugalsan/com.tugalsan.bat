@@ -147,6 +147,8 @@ cmd /c mvnd clean install -DskipTests -q
 echo api 33/87 module
 
 echo API08
+cd d:\git\api\com.tugalsan.api.font
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.file.ra
 cmd /c mvnd clean install -DskipTests -q
 echo api 16/87 module
