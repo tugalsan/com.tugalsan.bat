@@ -8,11 +8,11 @@ cd d:\git\api\com.tugalsan.api.optional
 cmd /c mvnd clean install -DskipTests versions:display-dependency-updates 
 cd d:\git\api\com.tugalsan.api.charset
 cmd /c mvnd clean install -DskipTests versions:display-dependency-updates 
+cd d:\git\api\com.tugalsan.api.callable
+cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
 cd d:\git\api\com.tugalsan.api.runnable
 cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
 echo api 12/87 module
-cd d:\git\api\com.tugalsan.api.callable
-cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
 echo api 07/87 module
 cd d:\git\api\com.tugalsan.api.clone
 cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
