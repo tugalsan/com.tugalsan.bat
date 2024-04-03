@@ -4,6 +4,8 @@ d:
 cd d:\git
 
 echo API00.MS0
+cd d:\git\api\com.tugalsan.api.union
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.optional
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.charset

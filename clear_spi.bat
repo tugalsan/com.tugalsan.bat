@@ -51,8 +51,5 @@ IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\spi\com.tugalsan.spi.report\target
 IF EXIST %F% RMDIR /S /Q %F%
 
-SET F=d:\git\spi\com.tugalsan.spi.asw\target
-IF EXIST %F% RMDIR /S /Q %F%
-
 SET F=d:\git\spi\com.tugalsan.spi.allow\target
 IF EXIST %F% RMDIR /S /Q %F%

@@ -11,10 +11,6 @@ cd d:\git\spi\com.tugalsan.spi.allow
 cmd /c "mvnd" clean install -DskipTests -q
 echo 2/18
 
-cd d:\git\spi\com.tugalsan.spi.asw
-cmd /c "mvnd" clean install -DskipTests -q
-echo 3/18
-
 cd d:\git\spi\com.tugalsan.spi.backup
 cmd /c "mvnd" clean install -DskipTests -q
 echo 4/18
