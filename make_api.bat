@@ -16,7 +16,7 @@ CALL:timer
 cls
 cmd /c clear_repo_tugalsan.bat
 cmd /c clear_api.bat
-cmd /c compile_api.bat
+cmd /c compile_api.bat 0
 cmd /c clear_api.bat
 cmd /c bip.bat
 

@@ -1,8 +1,12 @@
 @ECHO OFF
+@https://stackoverflow.com/questions/62928844/start-batch-file-from-specific-line
 echo compile_api...
 d:
 cd d:\git
 
+goto lbl%~1
+
+:lbl0
 echo API00.MS0
 cd d:\git\api\com.tugalsan.api.union
 cmd /c mvnd clean install -DskipTests -q
@@ -15,7 +19,6 @@ cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.runnable
 cmd /c mvnd clean install -DskipTests -q
 echo api 12/87 module
-echo api 07/87 module
 cd d:\git\api\com.tugalsan.api.clone
 cmd /c mvnd clean install -DskipTests -q
 echo api 05/87 module
@@ -54,6 +57,7 @@ cd d:\git\api\com.tugalsan.api.log
 cmd /c mvnd clean install -DskipTests -q
 echo api 15/87 module
 
+:lbl1
 echo API01
 echo api 00/87 module
 cd d:\git\api\com.tugalsan.api.os.sensor
@@ -75,6 +79,7 @@ cd d:\git\api\com.tugalsan.api.file.obj
 cmd /c mvnd clean install -DskipTests -q
 echo api 14/87 module
 
+:lbl2
 echo API02
 cd d:\git\api\com.tugalsan.api.cast
 cmd /c mvnd clean install -DskipTests -q
@@ -89,11 +94,13 @@ cd d:\git\api\com.tugalsan.api.random
 cmd /c mvnd clean install -DskipTests -q
 echo api 21/87 module
 
+:lbl3
 echo API03
 cd d:\git\api\com.tugalsan.api.time
 cmd /c mvnd clean install -DskipTests -q
 echo api 19/87 module
 
+:lbl4
 echo API04
 cd d:\git\api\com.tugalsan.api.list
 cmd /c mvnd clean install -DskipTests -q
@@ -107,6 +114,7 @@ cd d:\git\api\com.tugalsan.api.loremipsum
 cmd /c mvnd clean install -DskipTests -q
 echo api 23/87 module
 
+:lbl5
 echo API05
 cd d:\git\api\com.tugalsan.api.tree
 cmd /c mvnd clean install -DskipTests -q
@@ -136,6 +144,7 @@ cd d:\git\api\com.tugalsan.api.color
 cmd /c mvnd clean install -DskipTests -q
 echo api 31/87 module
 
+:lbl6
 echo API06
 cd d:\git\api\com.tugalsan.api.socket
 cmd /c mvnd clean install -DskipTests -q
@@ -143,11 +152,13 @@ cd d:\git\api\com.tugalsan.api.icon
 cmd /c mvnd clean install -DskipTests -q
 echo api 32/87 module
 
+:lbl7
 echo API07
 cd d:\git\api\com.tugalsan.api.file
 cmd /c mvnd clean install -DskipTests -q
 echo api 33/87 module
 
+:lbl8
 echo API08
 cd d:\git\api\com.tugalsan.api.font
 cmd /c mvnd clean install -DskipTests -q
@@ -175,6 +186,7 @@ cd d:\git\api\com.tugalsan.api.file.zip
 cmd /c mvnd clean install -DskipTests -q
 echo api 37/87 module
 
+:lbl9
 echo API09
 cd d:\git\api\com.tugalsan.api.file.common
 cmd /c mvnd clean install -DskipTests -q
@@ -188,6 +200,7 @@ cd d:\git\api\com.tugalsan.api.file.json
 cmd /c mvnd clean install -DskipTests -q
 echo api 40/87 module
 
+:lbl10
 echo API10
 cd d:\git\api\com.tugalsan.api.sql.sanitize
 cmd /c mvnd clean install -DskipTests -q
@@ -199,11 +212,13 @@ cd d:\git\api\com.tugalsan.api.sql.col.typed
 cmd /c mvnd clean install -DskipTests -q
 echo api 45/87 module
 
+:lbl11
 echo API11
 cd d:\git\api\com.tugalsan.api.sql.resultset
 cmd /c mvnd clean install -DskipTests -q
 echo api 46/87 module
 
+:lbl12
 echo API12
 cd d:\git\api\com.tugalsan.api.sql.conn
 cmd /c mvnd clean install -DskipTests -q
@@ -224,6 +239,7 @@ cd d:\git\api\com.tugalsan.api.sql.select
 cmd /c mvnd clean install -DskipTests -q
 echo api 52/87 module
 
+:lbl13
 echo API13
 cd d:\git\api\com.tugalsan.api.tomcat
 cmd /c mvnd clean install -DskipTests -q
@@ -241,6 +257,7 @@ cd d:\git\api\com.tugalsan.api.sql.adv
 cmd /c mvnd clean install -DskipTests -q
 echo api 56/87 module
 
+:lbl14
 echo API14
 cd d:\git\api\com.tugalsan.api.sql.delete
 cmd /c mvnd clean install -DskipTests -q
@@ -264,6 +281,7 @@ cd d:\git\api\com.tugalsan.api.sql.upload
 cmd /c mvnd clean install -DskipTests -q
 echo api 63/87 module
 
+:lbl15
 echo API15
 cd d:\git\api\com.tugalsan.api.sql.col
 cmd /c mvnd clean install -DskipTests -q
@@ -272,6 +290,7 @@ cd d:\git\api\com.tugalsan.api.sql.cellgen
 cmd /c mvnd clean install -DskipTests -q
 echo api 65/87 module
 
+:lbl16
 echo API16
 cd d:\git\api\com.tugalsan.api.sql.tbl
 cmd /c mvnd clean install -DskipTests -q
@@ -283,12 +302,13 @@ cd d:\git\api\com.tugalsan.api.sql.duplicate
 cmd /c mvnd clean install -DskipTests -q
 echo api 68/87 module
 
+:lbl17
 echo API17
 cd d:\git\api\com.tugalsan.api.sql.basic
 cmd /c mvnd clean install -DskipTests -q
 echo api 69/87 module
 
-
+:lbl18
 echo API18
 cd d:\git\api\com.tugalsan.api.servlet.gwt
 cmd /c mvnd clean install -DskipTests -q
@@ -297,6 +317,7 @@ cd d:\git\api\com.tugalsan.api.servlet.url
 cmd /c mvnd clean install -DskipTests -q
 echo api 71/87 module
 
+:lbl19
 echo API19
 cd d:\git\api\com.tugalsan.api.gui
 cmd /c mvnd clean install -DskipTests -q
@@ -308,6 +329,7 @@ cd d:\git\api\com.tugalsan.api.gui.visualization
 cmd /c mvnd clean install -DskipTests -q
 echo api 75/87 module
 
+:lbl20
 echo API20
 cd d:\git\api\com.tugalsan.api.file.img
 cmd /c mvnd clean install -DskipTests -q
@@ -340,6 +362,7 @@ cd d:\git\api\com.tugalsan.api.file.zip7
 cmd /c mvnd clean install -DskipTests -q
 echo api 84/87 module
 
+:lbl21
 echo API21
 echo api 83/87 module
 cd d:\git\api\com.tugalsan.api.captcha
@@ -362,16 +385,20 @@ cmd /c mvnd clean install -DskipTests -q
 echo api 87/87 module
 
 
+:lbl22
 echo API22
 cd d:\git\api\com.tugalsan.api.console
 cmd /c mvnd clean install -DskipTests -q
 
+:lbl23
 echo API23
 cd d:\git\api\com.tugalsan.api.desktop
 cmd /c mvnd clean install -DskipTests -q
 
-
-
-goto exit
-:exit
+:lblEnd
 cd d:\git\bat\com.tugalsan.bat
+pause
+exit /b
+
+:lbl
+echo You did not supply any arguments & pause

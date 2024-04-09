@@ -3,6 +3,8 @@ echo compile_lib...
 d:
 cd d:\git
 
+goto lbl%~1
+
 cd d:\git\lib\com.tugalsan.lib.cloud
 cmd /c "mvnd" clean install -DskipTests -q
 echo lib 01/31
