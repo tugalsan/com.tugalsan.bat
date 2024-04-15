@@ -8,8 +8,6 @@ goto lbl%~1
 
 :lbl0
 echo API00.MS0
-cd d:\git\api\com.tugalsan.api.union
-cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.optional
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.charset
@@ -34,6 +32,8 @@ echo api 03/87 module
 
 
 echo API00.MS1
+cd d:\git\api\com.tugalsan.api.union
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.unsafe
 cmd /c mvnd clean install -DskipTests -q
 
@@ -256,6 +256,8 @@ echo api 55/87 module
 cd d:\git\api\com.tugalsan.api.sql.adv
 cmd /c mvnd clean install -DskipTests -q
 echo api 56/87 module
+cd d:\git\api\com.tugalsan.api.sql.count
+cmd /c mvnd clean install -DskipTests -q
 
 :lbl14
 echo API14
@@ -271,8 +273,6 @@ echo api 59/87 module
 cd d:\git\api\com.tugalsan.api.sql.sum
 cmd /c mvnd clean install -DskipTests -q
 echo api 60/87 module
-cd d:\git\api\com.tugalsan.api.sql.count
-cmd /c mvnd clean install -DskipTests -q
 echo api 61/87 module
 cd d:\git\api\com.tugalsan.api.sql.exists
 cmd /c mvnd clean install -DskipTests -q
@@ -375,6 +375,8 @@ cd d:\git\api\com.tugalsan.api.input
 cmd /c mvnd clean install -DskipTests -q
 echo api 87/87 module
 cd d:\git\api\com.tugalsan.api.servlet.http
+cmd /c mvnd clean install -DskipTests -q
+cd d:\git\api\com.tugalsan.api.servlet.local
 cmd /c mvnd clean install -DskipTests -q
 echo api 87/87 module
 cd d:\git\api\com.tugalsan.api.serialcom
