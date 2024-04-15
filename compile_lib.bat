@@ -5,143 +5,141 @@ cd d:\git
 
 goto lbl%~1
 
+:lbl0
 cd d:\git\lib\com.tugalsan.lib.cloud
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 01/31
 
+:lbl1
 cd d:\git\lib\com.tugalsan.lib.time
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 01/31
 
+:lbl2
 cd d:\git\lib\com.tugalsan.lib.scale
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 01/31
 
+:lbl3
 cd d:\git\lib\com.tugalsan.lib.resource
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 02/31
 
+:lbl4
 cd d:\git\lib\com.tugalsan.lib.jsp
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 03/31
 
+:lbl5
 cd d:\git\lib\com.tugalsan.lib.gl
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 05/31
 
+:lbl6
 cd d:\git\lib\com.tugalsan.lib.acsrf
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 06/31
 
+:lbl7
 cd d:\git\lib\com.tugalsan.lib.tomcat
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 04/31
 
+:lbl8
 cd d:\git\lib\com.tugalsan.lib.route
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 07/31
 
+:lbl9
 cd d:\git\lib\com.tugalsan.lib.domain
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 08/31
 
+:lbl10
 cd d:\git\lib\com.tugalsan.lib.license
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 09/31
 
+:lbl11
 cd d:\git\lib\com.tugalsan.lib.network
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 10/31
 
+:lbl12
 cd d:\git\lib\com.tugalsan.lib.calender
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 11/31
 
+:lbl13
 cd d:\git\lib\com.tugalsan.lib.rql.servlet
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 12/31
 
+:lbl14
 cd d:\git\lib\com.tugalsan.lib.rql
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 13/31
 
+:lbl15
 cd d:\git\lib\com.tugalsan.lib.rql.txt
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 14/31
 
+:lbl16
 cd d:\git\lib\com.tugalsan.lib.rql.rev
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 15/31
 
+:lbl17
 cd d:\git\lib\com.tugalsan.lib.rql.cfg
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 16/31
 
-
+:lbl18
 cd d:\git\lib\com.tugalsan.lib.rql.report
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 19/31
 
+:lbl19
 cd d:\git\lib\com.tugalsan.lib.login
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 21/31
 
+:lbl20
 cd d:\git\lib\com.tugalsan.lib.rql.allow
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 22/31
 
+:lbl21
 cd d:\git\lib\com.tugalsan.lib.rql.link
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 17/31
 
+:lbl22
 cd d:\git\lib\com.tugalsan.lib.rql.buffer
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 23/31
 
-
+:lbl23
 cd d:\git\lib\com.tugalsan.lib.rql.restbl
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 18/31
 
+:lbl24
 cd d:\git\lib\com.tugalsan.lib.boot
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 24/31
 
+:lbl25
 cd d:\git\lib\com.tugalsan.lib.loginunsafe
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 25/31
 
+:lbl26
 cd d:\git\lib\com.tugalsan.lib.loginmaster
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 26/31
 
+:lbl27
 cd d:\git\lib\com.tugalsan.lib.file
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 27/31
 
+:lbl28
 cd d:\git\lib\com.tugalsan.lib.table
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 28/31
 
+:lbl29
 cd d:\git\lib\com.tugalsan.lib.hash.allow
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 29/31
 
+:lbl30
 echo API24
 cd d:\git\lib\com.tugalsan.lib.file.tmcr
 cmd /c "mvnd" clean install -DskipTests -q
-echo api 12/87 module
 
+:lbl31
 cd d:\git\lib\com.tugalsan.lib.report
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 30/31
 
+:lbl32
 cd d:\git\lib\com.tugalsan.lib.contact
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 31/31
 
+:lbl33
 cd D:\git\lib\com.tugalsan.lib.vnc.desktop
 cmd /c "mvnd" clean install -DskipTests -q
-echo lib 32/31
 
 cd d:\git\com.tugalsan.bat
