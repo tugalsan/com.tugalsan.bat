@@ -1,5 +1,14 @@
 @ECHO OFF
-@https://stackoverflow.com/questions/62928844/start-batch-file-from-specific-line
+::https://stackoverflow.com/questions/62928844/start-batch-file-from-specific-line
+
+::TODO
+::Equals check
+::return null
+::TGS_Uninon<Boolean>
+::TGS_Uninon<Object>
+::return u.toExcuse
+
+
 echo compile_api...
 d:
 cd d:\git
