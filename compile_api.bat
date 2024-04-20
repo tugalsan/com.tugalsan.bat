@@ -211,7 +211,7 @@ echo api 40/87 module
 
 :lbl10
 echo API10
-cd d:\git\api\com.tugalsan.api.git
+cd d:\git\api\com.tugalsan.api.jgit
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.sql.sanitize
 cmd /c mvnd clean install -DskipTests -q
