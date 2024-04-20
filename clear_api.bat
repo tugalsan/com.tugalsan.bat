@@ -4,6 +4,8 @@ d:
 cd d:\git
 
 echo API00
+SET F=d:\git\api\com.tugalsan.api.gwt.jdk\target
+IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\api\com.tugalsan.api.git\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=d:\git\api\com.tugalsan.api.socket\target

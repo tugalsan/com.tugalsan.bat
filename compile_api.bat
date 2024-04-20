@@ -17,6 +17,8 @@ goto lbl%~1
 
 :lbl0
 echo API00.MS0
+cd d:\git\api\com.tugalsan.api.gwt.jdk
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.charset
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.callable
