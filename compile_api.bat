@@ -154,11 +154,6 @@ cmd /c mvnd clean install -DskipTests -q
 echo api 31/87 module
 
 :lbl6
-echo API06
-cd d:\git\api\com.tugalsan.api.tomcat.embedded
-cmd /c mvnd clean install -DskipTests -q
-cd d:\git\api\com.tugalsan.api.tomcat.embedded.gwt
-cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.socket
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.icon
@@ -201,6 +196,11 @@ echo api 37/87 module
 
 :lbl9
 echo API09
+echo API06
+cd d:\git\api\com.tugalsan.api.tomcat.embedded
+cmd /c mvnd clean install -DskipTests -q
+cd d:\git\api\com.tugalsan.api.tomcat.embedded.gwt
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.file.common
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.profile
