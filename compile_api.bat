@@ -155,6 +155,10 @@ echo api 31/87 module
 
 :lbl6
 echo API06
+cd d:\git\api\com.tugalsan.api.tomcat.embedded
+cmd /c mvnd clean install -DskipTests -q
+cd d:\git\api\com.tugalsan.api.tomcat.embedded.gwt
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.socket
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.icon
