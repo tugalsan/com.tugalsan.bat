@@ -6,88 +6,94 @@ cd d:\git
 goto lbl%~1
 
 :lbl0
+echo lbl0
 cd d:\git\spi\com.tugalsan.spi.acsrf
 cmd /c "mvnd" clean install -DskipTests -q
-echo 1/18
 
 :lbl1
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.allow
 cmd /c "mvnd" clean install -DskipTests -q
-echo 2/18
 
 :lbl2
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.backup
 cmd /c "mvnd" clean install -DskipTests -q
-echo 4/18
 
 :lbl3
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.calender
 cmd /c "mvnd" clean install -DskipTests -q
-echo 5/18
 
 :lbl4
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.color
 cmd /c "mvnd" clean install -DskipTests -q
-echo 6/18
 
 :lbl5
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.contact
 cmd /c "mvnd" clean install -DskipTests -q
-echo 7/18
 
 :lbl6
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.database
 cmd /c "mvnd" clean install -DskipTests -q
-echo 8/18
 
 :lbl7
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.domain
 cmd /c "mvnd" clean install -DskipTests -q
-echo 9/18
 
 :lbl8
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.file
 cmd /c "mvnd" clean install -DskipTests -q
-echo 10/18
 
 :lbl9
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.jsp
 cmd /c "mvnd" clean install -DskipTests -q
-echo 11/18
 
 :lbl10
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.license
 cmd /c "mvnd" clean install -DskipTests -q
-echo 12/18
 
 :lbl11
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.login
 cmd /c "mvnd" clean install -DskipTests -q
-echo 13/18
 
 :lbl12
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.network
 cmd /c "mvnd" clean install -DskipTests -q
-echo 14/18
 
 :lbl13
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.report
 cmd /c "mvnd" clean install -DskipTests -q
-echo 15/18
 
 :lbl14
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.showcase
 cmd /c "mvnd" clean install -DskipTests -q
-echo 16/18
 
 :lbl15
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.table
 cmd /c "mvnd" clean install -DskipTests -q
-echo 17/18
 
 :lbl16
+echo lbl
 cd d:\git\spi\com.tugalsan.spi.tomcat
 cmd /c "mvnd" clean install -DskipTests -q
-echo 18/18
 
-cd d:\git\com.tugalsan.bat
+:lblEnd
+echo lblEnd
+cd d:\git\bat\com.tugalsan.bat
+exit /b
+
+:lbl
+echo You did not supply any arguments & pause
