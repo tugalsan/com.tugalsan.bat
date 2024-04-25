@@ -11,82 +11,82 @@ cd d:\git\spi\com.tugalsan.spi.acsrf
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl1
-echo lbl
+echo lbl1
 cd d:\git\spi\com.tugalsan.spi.allow
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl2
-echo lbl
+echo lbl2
 cd d:\git\spi\com.tugalsan.spi.backup
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl3
-echo lbl
+echo lbl3
 cd d:\git\spi\com.tugalsan.spi.calender
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl4
-echo lbl
+echo lbl4
 cd d:\git\spi\com.tugalsan.spi.color
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl5
-echo lbl
+echo lbl5
 cd d:\git\spi\com.tugalsan.spi.contact
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl6
-echo lbl
+echo lbl6
 cd d:\git\spi\com.tugalsan.spi.database
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl7
-echo lbl
+echo lbl7
 cd d:\git\spi\com.tugalsan.spi.domain
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl8
-echo lbl
+echo lbl8
 cd d:\git\spi\com.tugalsan.spi.file
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl9
-echo lbl
+echo lbl9
 cd d:\git\spi\com.tugalsan.spi.jsp
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl10
-echo lbl
+echo lbl10
 cd d:\git\spi\com.tugalsan.spi.license
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl11
-echo lbl
+echo lbl11
 cd d:\git\spi\com.tugalsan.spi.login
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl12
-echo lbl
+echo lbl12
 cd d:\git\spi\com.tugalsan.spi.network
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl13
-echo lbl
+echo lbl13
 cd d:\git\spi\com.tugalsan.spi.report
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl14
-echo lbl
+echo lbl14
 cd d:\git\spi\com.tugalsan.spi.showcase
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl15
-echo lbl
+echo lbl15
 cd d:\git\spi\com.tugalsan.spi.table
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl16
-echo lbl
+echo lbl16
 cd d:\git\spi\com.tugalsan.spi.tomcat
 cmd /c "mvnd" clean install -DskipTests -q
 
