@@ -16,7 +16,8 @@ CALL:timer
 cls
 cmd /c clear_app.bat
 cmd /c compile_app.bat 0
-cmd /c clear_app.bat
+cmd /c load_app.bat 0
+:: cmd /c clear_app.bat
 :: cmd /c bip.bat
 :: cmd /c bip.bat
 :: cmd /c bip.bat

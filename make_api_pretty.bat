@@ -17,7 +17,7 @@ cls
 cmd /c clear_repo_tugalsan.bat
 cmd /c clear_api.bat
 cmd /c compile_api_pretty.bat
-cmd /c clear_api.bat
+:: cmd /c clear_api.bat
 cmd /c bip.bat
 
 :: Now we call the function again with the desired parameters

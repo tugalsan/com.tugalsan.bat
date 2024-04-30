@@ -16,7 +16,7 @@ CALL:timer
 cls
 cmd /c clear_lib.bat
 cmd /c compile_lib.bat 0
-cmd /c clear_lib.bat
+:: cmd /c clear_lib.bat
 cmd /c bip.bat
 cmd /c bip.bat
 
