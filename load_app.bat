@@ -9,6 +9,7 @@ goto lbl%~1
 :lbl0
 echo lbl0
 java -jar D:\bin\tomcat\home\lib\jakartaee-migration-1.0.8-shaded.jar D:\git\app\com.tugalsan.app.backup\com.tugalsan.app.backup-server\target\war\app-backup.war D:\bin\tomcat\home\webapps\app-backup.war -exclude=*.java
+7z d -tzip D:\bin\tomcat\home\webapps\app-backup.war *.java
 
 :lbl1
 echo lbl1
