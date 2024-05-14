@@ -49,8 +49,6 @@ cd d:\git\api\com.tugalsan.api.annotation
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.coronator
 cmd /c mvnd clean install -DskipTests -q
-cd d:\git\api\com.tugalsan.api.file.gif
-cmd /c mvnd clean install -DskipTests -q
 
 :lbl3
 echo lbl3
@@ -65,6 +63,8 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl5
 echo lbl5
+cd d:\git\api\com.tugalsan.api.file.gif
+cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.os.sensor
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.hex
