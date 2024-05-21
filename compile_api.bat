@@ -35,13 +35,17 @@ cd d:\git\api\com.tugalsan.api.shape
 cmd /c mvnd clean install -DskipTests -q
 
 
-:lbl1
-echo lbl1
+:lbl1.1
+echo lbl1.1
 cd d:\git\api\com.tugalsan.api.union
 cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.unsafe
 cmd /c mvnd clean install -DskipTests -q
 
+:lbl1.2
+echo lbl1.2
+cd d:\git\api\com.tugalsan.api.union
+cmd /c mvnd clean install -DskipTests -q
 
 :lbl2
 echo lbl2
