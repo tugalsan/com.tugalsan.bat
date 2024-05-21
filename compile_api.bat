@@ -37,8 +37,6 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl1.1
 echo lbl1.1
-cd d:\git\api\com.tugalsan.api.union
-cmd /c mvnd clean install -DskipTests -q
 cd d:\git\api\com.tugalsan.api.unsafe
 cmd /c mvnd clean install -DskipTests -q
 
