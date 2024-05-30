@@ -1,7 +1,7 @@
 @ECHO OFF
 echo GWT.make...
-d:
-cd d:\git
+c:
+cd c:\git
 
 ECHO.
 ECHO timer started

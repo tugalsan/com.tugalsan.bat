@@ -1,74 +1,74 @@
 @ECHO OFF
 echo compile_spi...
-d:
-cd d:\git
+c:
+cd c:\git
 
-cd d:\git\spi\com.tugalsan.spi.acsrf
+cd c:\git\spi\com.tugalsan.spi.acsrf
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 1/18
 
-cd d:\git\spi\com.tugalsan.spi.allow
+cd c:\git\spi\com.tugalsan.spi.allow
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 2/18
 
-cd d:\git\spi\com.tugalsan.spi.backup
+cd c:\git\spi\com.tugalsan.spi.backup
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 4/18
 
-cd d:\git\spi\com.tugalsan.spi.calender
+cd c:\git\spi\com.tugalsan.spi.calender
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 5/18
 
-cd d:\git\spi\com.tugalsan.spi.color
+cd c:\git\spi\com.tugalsan.spi.color
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 6/18
 
-cd d:\git\spi\com.tugalsan.spi.contact
+cd c:\git\spi\com.tugalsan.spi.contact
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 7/18
 
-cd d:\git\spi\com.tugalsan.spi.database
+cd c:\git\spi\com.tugalsan.spi.database
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 8/18
 
-cd d:\git\spi\com.tugalsan.spi.domain
+cd c:\git\spi\com.tugalsan.spi.domain
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 9/18
 
-cd d:\git\spi\com.tugalsan.spi.file
+cd c:\git\spi\com.tugalsan.spi.file
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 10/18
 
-cd d:\git\spi\com.tugalsan.spi.jsp
+cd c:\git\spi\com.tugalsan.spi.jsp
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 11/18
 
-cd d:\git\spi\com.tugalsan.spi.license
+cd c:\git\spi\com.tugalsan.spi.license
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 12/18
 
-cd d:\git\spi\com.tugalsan.spi.login
+cd c:\git\spi\com.tugalsan.spi.login
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 13/18
 
-cd d:\git\spi\com.tugalsan.spi.network
+cd c:\git\spi\com.tugalsan.spi.network
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 14/18
 
-cd d:\git\spi\com.tugalsan.spi.report
+cd c:\git\spi\com.tugalsan.spi.report
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 15/18
 
-cd d:\git\spi\com.tugalsan.spi.showcase
+cd c:\git\spi\com.tugalsan.spi.showcase
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 16/18
 
-cd d:\git\spi\com.tugalsan.spi.table
+cd c:\git\spi\com.tugalsan.spi.table
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 17/18
 
-cd d:\git\spi\com.tugalsan.spi.tomcat
+cd c:\git\spi\com.tugalsan.spi.tomcat
 cmd /c "mvnd" clean install -DskipTests versions:display-dependency-updates
 echo 18/18
 
-cd d:\git\com.tugalsan.bat
+cd c:\git\com.tugalsan.bat
