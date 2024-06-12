@@ -225,6 +225,8 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl19
 echo lbl19
+cd c:\git\api\com.tugalsan.api.servlet.upload
+cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.sql.delete
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.sql.max
