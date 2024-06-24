@@ -23,8 +23,6 @@ cd c:\git\api\com.tugalsan.api.charset
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.callable
 cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.runnable
-cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.clone
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.validator
@@ -59,7 +57,6 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl4
 echo lbl4
-echo API00.MS4
 cd c:\git\api\com.tugalsan.api.log
 cmd /c mvnd clean install -DskipTests -q
 
