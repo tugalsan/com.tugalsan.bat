@@ -25,8 +25,6 @@ cd c:\git\api\com.tugalsan.api.callable
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.clone
 cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.validator
-cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.tuple
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.shape
@@ -46,8 +44,6 @@ cmd /c mvnd clean install -DskipTests -q
 :lbl2
 echo lbl2
 cd c:\git\api\com.tugalsan.api.annotation
-cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.coronator
 cmd /c mvnd clean install -DskipTests -q
 
 :lbl3
