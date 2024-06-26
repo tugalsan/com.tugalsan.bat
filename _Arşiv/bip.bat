@@ -1,3 +1,0 @@
-@ECHO OFF
-echo bip...
-powershell -c echo `a
