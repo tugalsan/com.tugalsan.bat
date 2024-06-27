@@ -21,7 +21,7 @@ cd c:\git\api\com.tugalsan.api.gwt.jdk
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.charset
 cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.callable
+cd c:\git\api\com.tugalsan.api.function
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.clone
 cmd /c mvnd clean install -DskipTests -q
