@@ -157,21 +157,26 @@ cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl30
 echo lbl30
-cd c:\git\lib\com.tugalsan.lib.file.tmcr
-cmd /c "mvnd" clean install -DskipTests -q
+cd c:\git\lib\com.tugalsan.lib.file.pdf.sign
+cmd /c mvnd clean install -DskipTests -q
 
 :lbl31
 echo lbl31
-cd c:\git\lib\com.tugalsan.lib.report
+cd c:\git\lib\com.tugalsan.lib.file.tmcr
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl32
 echo lbl32
-cd c:\git\lib\com.tugalsan.lib.contact
+cd c:\git\lib\com.tugalsan.lib.report
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl33
 echo lbl33
+cd c:\git\lib\com.tugalsan.lib.contact
+cmd /c "mvnd" clean install -DskipTests -q
+
+:lbl34
+echo lbl34
 cd c:\git\lib\com.tugalsan.lib.vnc.desktop
 cmd /c "mvnd" clean install -DskipTests -q
 
