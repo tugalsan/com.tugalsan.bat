@@ -180,6 +180,16 @@ echo lbl34
 cd c:\git\lib\com.tugalsan.lib.vnc.desktop
 cmd /c "mvnd" clean install -DskipTests -q
 
+:lbl35
+echo lbl35
+cd c:\git\lib\com.tugalsan.lib.file.pdf.to.html
+cmd /c mvnd clean install -DskipTests -q
+
+:lbl36
+echo lbl36
+cd c:\git\lib\com.tugalsan.lib.file.pdf.from.html
+cmd /c mvnd clean install -DskipTests -q
+
 :lblEnd
 echo lblEnd
 cd c:\git\bat\com.tugalsan.bat
