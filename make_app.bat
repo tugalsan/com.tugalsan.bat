@@ -15,7 +15,7 @@ CALL:timer
 :: We put some code we want to measure
 cls
 cmd /c clear_app.bat
-cmd /c compile_app.bat 0
+cmd /c compile_app.bat 2
 :: cmd /c clear_app.bat
 :: cmd /c bip.bat
 :: cmd /c bip.bat
