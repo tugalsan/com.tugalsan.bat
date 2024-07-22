@@ -18,7 +18,6 @@ cmd /c "mvnd" clean install -DskipTests -q
 :lbl2
 echo lbl2
 cd c:\git\app\com.tugalsan.app.cloud
-@ -35,11 +25,6 @@ echo lbl5
 cd c:\git\app\com.tugalsan.app.database
 cmd /c "mvnd" clean install -DskipTests -q
 
@@ -30,7 +29,6 @@ cmd /c "mvnd" clean install -DskipTests -q
 :lbl7
 echo lbl7
 cd c:\git\app\com.tugalsan.app.file
-@ -50,36 +35,16 @@
 cd c:\git\app\com.tugalsan.app.login
 cmd /c "mvnd" clean install -DskipTests -q
 
