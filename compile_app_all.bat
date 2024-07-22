@@ -21,6 +21,22 @@ cd c:\git\app\com.tugalsan.app.cloud
 cd c:\git\app\com.tugalsan.app.database
 cmd /c "mvnd" clean install -DskipTests -q
 
+:lbl3
+echo lbl2
+cd c:\git\app\com.tugalsan.app.color
+cd c:\git\app\com.tugalsan.app.database
+cmd /c "mvnd" clean install -DskipTests -q
+
+:lbl4
+echo lbl4
+cd c:\git\app\com.tugalsan.app.contact
+cmd /c "mvnd" clean install -DskipTests -q
+
+:lbl5
+echo lbl5
+cd c:\git\app\com.tugalsan.app.database
+cmd /c "mvnd" clean install -DskipTests -q
+
 :lbl6
 echo lbl6
 cd c:\git\app\com.tugalsan.app.download
@@ -29,6 +45,11 @@ cmd /c "mvnd" clean install -DskipTests -q
 :lbl7
 echo lbl7
 cd c:\git\app\com.tugalsan.app.file
+cd c:\git\app\com.tugalsan.app.login
+cmd /c "mvnd" clean install -DskipTests -q
+
+:lbl8
+echo lbl8
 cd c:\git\app\com.tugalsan.app.login
 cmd /c "mvnd" clean install -DskipTests -q
 
