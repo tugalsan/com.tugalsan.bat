@@ -18,13 +18,11 @@ cmd /c "mvnd" clean install -DskipTests -q
 :lbl2
 echo lbl2
 cd c:\git\app\com.tugalsan.app.cloud
-cd c:\git\app\com.tugalsan.app.database
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl3
-echo lbl2
+echo lbl3
 cd c:\git\app\com.tugalsan.app.color
-cd c:\git\app\com.tugalsan.app.database
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl4
@@ -45,7 +43,6 @@ cmd /c "mvnd" clean install -DskipTests -q
 :lbl7
 echo lbl7
 cd c:\git\app\com.tugalsan.app.file
-cd c:\git\app\com.tugalsan.app.login
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl8
@@ -77,6 +74,11 @@ cmd /c "mvnd" clean install -DskipTests -q
 echo lbl13
 cd c:\git\app\com.tugalsan.app.table
 cmd /c "mvnd" clean install -DskipTests -q
+
+:lbl14
+:: echo lbl14
+:: cd c:\git\app\com.tugalsan.app.helloworld
+:: cmd /c "mvnd" clean install -DskipTests -q
 
 :lblEnd
 echo lblEnd

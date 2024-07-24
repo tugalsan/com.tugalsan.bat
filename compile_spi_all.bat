@@ -90,6 +90,11 @@ echo lbl16
 cd c:\git\spi\com.tugalsan.spi.tomcat
 cmd /c "mvnd" clean install -DskipTests -q
 
+:lbl17
+echo lbl17
+cd c:\git\spi\com.tugalsan.spi.helloworld
+cmd /c "mvnd" clean install -DskipTests -q
+
 :lblEnd
 echo lblEnd
 cd c:\git\bat\com.tugalsan.bat
