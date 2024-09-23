@@ -221,7 +221,9 @@ SET F=c:\git\api\com.tugalsan.api.file.docx\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=c:\git\api\com.tugalsan.api.file.html.chart\target
 IF EXIST %F% RMDIR /S /Q %F%
-SET F=c:\git\api\com.tugalsan.api.file.pdf\target
+SET F=c:\git\api\com.tugalsan.api.file.pdf.itext\target
+IF EXIST %F% RMDIR /S /Q %F%
+SET F=c:\git\api\com.tugalsan.api.file.pdf.pdfbox3\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=c:\git\api\com.tugalsan.api.file.pdf.sign\target
 IF EXIST %F% RMDIR /S /Q %F%
