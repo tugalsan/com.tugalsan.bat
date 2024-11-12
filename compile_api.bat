@@ -278,8 +278,6 @@ cd c:\git\api\com.tugalsan.api.file.docx
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.html.chart
 cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.file.pdf.itext
-cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.pdf.openpdf

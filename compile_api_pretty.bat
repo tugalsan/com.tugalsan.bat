@@ -316,8 +316,7 @@ echo api 77/87 module
 cd c:\git\api\com.tugalsan.api.file.html.chart
 cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
 echo api 78/87 module
-cd c:\git\api\com.tugalsan.api.file.pdf.itext
-cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
+versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3
 cmd /c mvnd clean install -DskipTests versions:display-dependency-updates
 echo api 79/87 module
