@@ -301,8 +301,6 @@ cd c:\git\api\com.tugalsan.api.id
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.input
 cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.servlet.http
-cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.servlet.local
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.serialcom

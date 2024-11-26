@@ -190,6 +190,11 @@ echo lbl36
 cd c:\git\lib\com.tugalsan.lib.file.pdf.from.html
 cmd /c mvnd clean install -DskipTests -q
 
+:lbl37
+echo lbl37
+cd c:\git\lib\com.tugalsan.lib.servlet.http.sun
+cmd /c mvnd clean install -DskipTests -q
+
 :lblEnd
 echo lblEnd
 cd c:\git\bat\com.tugalsan.bat
