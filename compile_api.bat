@@ -311,7 +311,7 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl27
 echo lbl27
-cd c:\git\api\com.tugalsan.api.console
+cd c:\git\api\com.tugalsan.api.console.jdk
 cmd /c mvnd clean install -DskipTests -q
 
 :lbl28
