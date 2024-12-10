@@ -3,6 +3,8 @@ echo compile_lib...
 c:
 cd c:\git
 
+echo TOTAL 37
+
 goto lbl%~1
 
 :lbl0

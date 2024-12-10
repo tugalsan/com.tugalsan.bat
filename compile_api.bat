@@ -13,6 +13,8 @@ echo compile_api...
 c:
 cd c:\git
 
+echo TOTAL 28
+
 goto lbl%~1
 
 :lbl0

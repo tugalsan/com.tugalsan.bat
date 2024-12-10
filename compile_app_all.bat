@@ -3,6 +3,8 @@ echo compile_app...
 c:
 cd c:\git
 
+echo TOTAL 13
+
 goto lbl%~1
 
 :lbl0

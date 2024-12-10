@@ -3,6 +3,8 @@ echo compile_spi...
 c:
 cd c:\git
 
+echo TOTAL 17
+
 goto lbl%~1
 
 :lbl0
