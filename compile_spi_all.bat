@@ -3,7 +3,7 @@ echo compile_spi...
 c:
 cd c:\git
 
-echo TOTAL 17
+echo TOTAL 16
 
 goto lbl%~1
 
@@ -79,21 +79,16 @@ cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl14
 echo lbl14
-cd c:\git\spi\com.tugalsan.spi.showcase
+cd c:\git\spi\com.tugalsan.spi.table
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl15
 echo lbl15
-cd c:\git\spi\com.tugalsan.spi.table
+cd c:\git\spi\com.tugalsan.spi.tomcat
 cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl16
 echo lbl16
-cd c:\git\spi\com.tugalsan.spi.tomcat
-cmd /c "mvnd" clean install -DskipTests -q
-
-:lbl17
-echo lbl17
 cd c:\git\spi\com.tugalsan.spi.helloworld
 cmd /c "mvnd" clean install -DskipTests -q
 

@@ -3,7 +3,7 @@ echo compile_app...
 c:
 cd c:\git
 
-echo TOTAL 13
+echo TOTAL 12
 
 goto lbl%~1
 
@@ -69,16 +69,11 @@ cmd /c "mvnd" clean install -DskipTests -q
 
 :lbl12
 echo lbl12
-cd c:\git\app\com.tugalsan.app.showcasejs
-cmd /c "mvnd" clean install -DskipTests -q
-
-:lbl13
-echo lbl13
 cd c:\git\app\com.tugalsan.app.table
 cmd /c "mvnd" clean install -DskipTests -q
 
-:lbl14
-:: echo lbl14
+:lbl13
+:: echo lbl13
 :: cd c:\git\app\com.tugalsan.app.helloworld
 :: cmd /c "mvnd" clean install -DskipTests -q
 
