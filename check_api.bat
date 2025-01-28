@@ -8,10 +8,14 @@
 ::TGS_Uninon<Object>
 ::return u.toExcuse
 
+echo usage check_api.bat 0 ARROW_RIGHT check_api.txt
+echo look for "The following dependencies in Dependencies have newer versions"
 
-echo compile_api...
+echo check_api...   
 c:
 cd c:\git
+
+echo TOTAL 28
 
 goto lbl%~1
 
@@ -278,7 +282,9 @@ cd c:\git\api\com.tugalsan.api.file.docx
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.html.chart
 cmd /c mvnd versions:display-dependency-updates
-cd c:\git\api\com.tugalsan.api.file.pdf
+cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3
+cmd /c mvnd versions:display-dependency-updates
+cd c:\git\api\com.tugalsan.api.file.pdf.openpdf
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.properties
 cmd /c mvnd versions:display-dependency-updates
@@ -299,8 +305,6 @@ cd c:\git\api\com.tugalsan.api.id
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.input
 cmd /c mvnd versions:display-dependency-updates
-cd c:\git\api\com.tugalsan.api.servlet.http
-cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.servlet.local
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.serialcom
@@ -311,7 +315,7 @@ cmd /c mvnd versions:display-dependency-updates
 
 :lbl27
 echo lbl27
-cd c:\git\api\com.tugalsan.api.console
+cd c:\git\api\com.tugalsan.api.console.jdk
 cmd /c mvnd versions:display-dependency-updates
 
 :lbl28
@@ -322,8 +326,22 @@ cmd /c mvnd versions:display-dependency-updates
 :lblEnd
 echo lblEnd
 cd c:\git\bat\com.tugalsan.bat
+echo Finished
 pause
 exit /b
 
 :lbl
 echo You did not supply any arguments & pause
+
+
+
+
+
+
+
+
+
+
+
+
+

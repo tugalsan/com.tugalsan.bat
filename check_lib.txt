@@ -1,0 +1,800 @@
+usage check_lib.bat 0 ARROW_RIGHT check_lib.txt
+look for "The following dependencies in Dependencies have newer versions"
+check_lib...
+TOTAL 37
+lbl0
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.cloud >-----------------
+[INFO] Building com.tugalsan.lib.cloud 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.cloud ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.573 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:51+03:00
+[INFO] ------------------------------------------------------------------------
+lbl1
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------------< com.tugalsan:com.tugalsan.lib.time >-----------------
+[INFO] Building com.tugalsan.lib.time 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.time ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.693 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:52+03:00
+[INFO] ------------------------------------------------------------------------
+lbl2
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.scale >-----------------
+[INFO] Building com.tugalsan.lib.scale 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.scale ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.730 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:53+03:00
+[INFO] ------------------------------------------------------------------------
+lbl3
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.resource >---------------
+[INFO] Building com.tugalsan.lib.resource 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.resource ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.722 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:54+03:00
+[INFO] ------------------------------------------------------------------------
+lbl4
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------------< com.tugalsan:com.tugalsan.lib.jsp >------------------
+[INFO] Building com.tugalsan.lib.jsp 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.jsp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.765 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:55+03:00
+[INFO] ------------------------------------------------------------------------
+lbl5
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ------------------< com.tugalsan:com.tugalsan.lib.gl >------------------
+[INFO] Building com.tugalsan.lib.gl 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.gl ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.770 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:56+03:00
+[INFO] ------------------------------------------------------------------------
+lbl6
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.acsrf >-----------------
+[INFO] Building com.tugalsan.lib.acsrf 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.acsrf ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.825 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:57+03:00
+[INFO] ------------------------------------------------------------------------
+lbl7
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.tomcat >----------------
+[INFO] Building com.tugalsan.lib.tomcat 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.tomcat ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.696 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:58+03:00
+[INFO] ------------------------------------------------------------------------
+lbl8
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.route >-----------------
+[INFO] Building com.tugalsan.lib.route 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.route ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.730 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:59+03:00
+[INFO] ------------------------------------------------------------------------
+lbl9
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.domain >----------------
+[INFO] Building com.tugalsan.lib.domain 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.domain ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.582 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:17:59+03:00
+[INFO] ------------------------------------------------------------------------
+lbl10
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.license >----------------
+[INFO] Building com.tugalsan.lib.license 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.license ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.729 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:00+03:00
+[INFO] ------------------------------------------------------------------------
+lbl11
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.network >----------------
+[INFO] Building com.tugalsan.lib.network 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.network ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.651 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:01+03:00
+[INFO] ------------------------------------------------------------------------
+lbl12
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.calender >---------------
+[INFO] Building com.tugalsan.lib.calender 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.calender ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.677 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:02+03:00
+[INFO] ------------------------------------------------------------------------
+lbl13
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -------------< com.tugalsan:com.tugalsan.lib.rql.servlet >--------------
+[INFO] Building com.tugalsan.lib.rql.servlet 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.servlet ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.758 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:03+03:00
+[INFO] ------------------------------------------------------------------------
+lbl14
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------------< com.tugalsan:com.tugalsan.lib.rql >------------------
+[INFO] Building com.tugalsan.lib.rql 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.603 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:04+03:00
+[INFO] ------------------------------------------------------------------------
+lbl15
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.rql.txt >----------------
+[INFO] Building com.tugalsan.lib.rql.txt 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.txt ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.523 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:05+03:00
+[INFO] ------------------------------------------------------------------------
+lbl16
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.rql.rev >----------------
+[INFO] Building com.tugalsan.lib.rql.rev 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.rev ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.446 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:05+03:00
+[INFO] ------------------------------------------------------------------------
+lbl17
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.rql.cfg >----------------
+[INFO] Building com.tugalsan.lib.rql.cfg 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.cfg ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.379 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:06+03:00
+[INFO] ------------------------------------------------------------------------
+lbl18
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --------------< com.tugalsan:com.tugalsan.lib.rql.report >--------------
+[INFO] Building com.tugalsan.lib.rql.report 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.report ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.426 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:07+03:00
+[INFO] ------------------------------------------------------------------------
+lbl19
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.login >-----------------
+[INFO] Building com.tugalsan.lib.login 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.login ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.507 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:07+03:00
+[INFO] ------------------------------------------------------------------------
+lbl20
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --------------< com.tugalsan:com.tugalsan.lib.rql.allow >---------------
+[INFO] Building com.tugalsan.lib.rql.allow 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.allow ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.596 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:08+03:00
+[INFO] ------------------------------------------------------------------------
+lbl21
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.rql.link >---------------
+[INFO] Building com.tugalsan.lib.rql.link 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.link ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.354 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:09+03:00
+[INFO] ------------------------------------------------------------------------
+lbl22
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --------------< com.tugalsan:com.tugalsan.lib.rql.buffer >--------------
+[INFO] Building com.tugalsan.lib.rql.buffer 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.buffer ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.367 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:09+03:00
+[INFO] ------------------------------------------------------------------------
+lbl23
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --------------< com.tugalsan:com.tugalsan.lib.rql.restbl >--------------
+[INFO] Building com.tugalsan.lib.rql.restbl 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.rql.restbl ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.404 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:10+03:00
+[INFO] ------------------------------------------------------------------------
+lbl24
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------------< com.tugalsan:com.tugalsan.lib.boot >-----------------
+[INFO] Building com.tugalsan.lib.boot 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.boot ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.359 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:10+03:00
+[INFO] ------------------------------------------------------------------------
+lbl25
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -------------< com.tugalsan:com.tugalsan.lib.loginunsafe >--------------
+[INFO] Building com.tugalsan.lib.loginunsafe 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.loginunsafe ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.397 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:11+03:00
+[INFO] ------------------------------------------------------------------------
+lbl26
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -------------< com.tugalsan:com.tugalsan.lib.loginmaster >--------------
+[INFO] Building com.tugalsan.lib.loginmaster 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.loginmaster ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.393 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:11+03:00
+[INFO] ------------------------------------------------------------------------
+lbl27
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------------< com.tugalsan:com.tugalsan.lib.file >-----------------
+[INFO] Building com.tugalsan.lib.file 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.file ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.374 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:12+03:00
+[INFO] ------------------------------------------------------------------------
+lbl28
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.table >-----------------
+[INFO] Building com.tugalsan.lib.table 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.table ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.382 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:12+03:00
+[INFO] ------------------------------------------------------------------------
+lbl29
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --------------< com.tugalsan:com.tugalsan.lib.hash.allow >--------------
+[INFO] Building com.tugalsan.lib.hash.allow 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.hash.allow ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.369 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:13+03:00
+[INFO] ------------------------------------------------------------------------
+lbl30
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ------------< com.tugalsan:com.tugalsan.lib.file.pdf.sign >-------------
+[INFO] Building com.tugalsan.lib.file.pdf.sign 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.file.pdf.sign ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.348 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:13+03:00
+[INFO] ------------------------------------------------------------------------
+lbl31
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --------------< com.tugalsan:com.tugalsan.lib.file.tmcr >---------------
+[INFO] Building com.tugalsan.lib.file.tmcr 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.file.tmcr ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.379 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:14+03:00
+[INFO] ------------------------------------------------------------------------
+lbl32
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------------< com.tugalsan:com.tugalsan.lib.report >----------------
+[INFO] Building com.tugalsan.lib.report 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.report ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.433 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:15+03:00
+[INFO] ------------------------------------------------------------------------
+lbl33
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ---------------< com.tugalsan:com.tugalsan.lib.contact >----------------
+[INFO] Building com.tugalsan.lib.contact 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.contact ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.569 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:15+03:00
+[INFO] ------------------------------------------------------------------------
+lbl34
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -------------< com.tugalsan:com.tugalsan.lib.vnc.desktop >--------------
+[INFO] Building com.tugalsan.lib.vnc.desktop 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.vnc.desktop ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.558 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:16+03:00
+[INFO] ------------------------------------------------------------------------
+lbl35
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------< com.tugalsan:com.tugalsan.lib.file.pdf.to.html >-----------
+[INFO] Building com.tugalsan.lib.file.pdf.to.html 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.file.pdf.to.html ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.369 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:17+03:00
+[INFO] ------------------------------------------------------------------------
+lbl36
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] ----------< com.tugalsan:com.tugalsan.lib.file.pdf.from.html >----------
+[INFO] Building com.tugalsan.lib.file.pdf.from.html 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.file.pdf.from.html ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.367 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:17+03:00
+[INFO] ------------------------------------------------------------------------
+lbl37
+[INFO] Processing build on daemon a14f52bc
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -----------< com.tugalsan:com.tugalsan.lib.servlet.http.sun >-----------
+[INFO] Building com.tugalsan.lib.servlet.http.sun 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.lib.servlet.http.sun ---
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.464 s (Wall Clock)
+[INFO] Finished at: 2025-01-28T13:18:18+03:00
+[INFO] ------------------------------------------------------------------------
+lblEnd
+Finished
