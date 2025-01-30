@@ -77,6 +77,11 @@ cmd /c "mvnd" clean install -DskipTests -q
 :: cd c:\git\app\com.tugalsan.app.helloworld
 :: cmd /c "mvnd" clean install -DskipTests -q
 
+:lbl13
+:: echo lbl13
+:: cd c:\git\app\com.tugalsan.app.paint
+:: cmd /c "mvnd" clean install -DskipTests -q
+
 :lblEnd
 echo lblEnd
 cd c:\git\bat\com.tugalsan.bat
