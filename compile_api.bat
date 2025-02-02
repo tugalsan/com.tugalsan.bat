@@ -277,6 +277,8 @@ cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.pdf2dom
 cmd /c mvnd clean install -DskipTests -q
+cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf
+cmd /c mvnd clean install -DskipTests -q
 
 
 :lbl25
