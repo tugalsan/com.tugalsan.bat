@@ -3,9 +3,15 @@ look for "The following dependencies in Dependencies have newer versions"
 check_api...   
 TOTAL 28
 lbl0
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 54 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/maven-metadata.xml (1.3 kB at 36 kB/s)
 [INFO] 
 [INFO] Using the SmartBuilder implementation with a thread count of 15
 [INFO] 
@@ -15,15 +21,19 @@ lbl0
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.gwt.jdk ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-user/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/maven-metadata.xml (1.2 kB at 20 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-user/maven-metadata.xml (460 B at 1.6 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.284 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:17+03:00
+[INFO] Total time:  4.688 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:49+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -40,10 +50,10 @@ lbl0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.712 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:18+03:00
+[INFO] Total time:  0.928 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:50+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -58,10 +68,10 @@ lbl0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.573 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:19+03:00
+[INFO] Total time:  0.888 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:51+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -76,10 +86,10 @@ lbl0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.405 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:19+03:00
+[INFO] Total time:  0.842 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:52+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -97,10 +107,10 @@ lbl0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.198 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:21+03:00
+[INFO] Total time:  1.831 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:54+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -115,11 +125,11 @@ lbl0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.417 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:21+03:00
+[INFO] Total time:  0.871 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:55+03:00
 [INFO] ------------------------------------------------------------------------
 lbl1.1
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -137,11 +147,11 @@ lbl1.1
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.716 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:22+03:00
+[INFO] Total time:  1.193 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:57+03:00
 [INFO] ------------------------------------------------------------------------
 lbl1.2
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -153,16 +163,17 @@ lbl1.2
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.union ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.unsafe/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.435 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:23+03:00
+[INFO] Total time:  1.325 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:58+03:00
 [INFO] ------------------------------------------------------------------------
 lbl2
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -177,11 +188,11 @@ lbl2
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.382 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:23+03:00
+[INFO] Total time:  0.652 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:00:59+03:00
 [INFO] ------------------------------------------------------------------------
 lbl3
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -194,16 +205,17 @@ lbl3
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.string ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.union/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.charset/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.714 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:24+03:00
+[INFO] Total time:  1.160 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:01+03:00
 [INFO] ------------------------------------------------------------------------
 lbl4
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -215,18 +227,22 @@ lbl4
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.log ---
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.tuple/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.string/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.tuple/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/maven-metadata.xml (972 B at 11 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/maven-metadata.xml (1.2 kB at 4.3 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.736 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:25+03:00
+[INFO] Total time:  1.022 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:02+03:00
 [INFO] ------------------------------------------------------------------------
 lbl5
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -238,15 +254,16 @@ lbl5
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.gif ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.log/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.422 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:26+03:00
+[INFO] Total time:  1.061 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:03+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -258,15 +275,17 @@ lbl5
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.os.sensor ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/profesorfalken/jSensors/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/profesorfalken/jSensors/maven-metadata.xml (677 B at 514 B/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.427 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:26+03:00
+[INFO] Total time:  1.860 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:05+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -281,10 +300,10 @@ lbl5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.439 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:27+03:00
+[INFO] Total time:  0.486 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:06+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -301,10 +320,10 @@ lbl5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.420 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:27+03:00
+[INFO] Total time:  0.530 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:07+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -319,10 +338,10 @@ lbl5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.454 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:28+03:00
+[INFO] Total time:  0.649 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:07+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -339,10 +358,10 @@ lbl5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.411 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:28+03:00
+[INFO] Total time:  0.694 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:08+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -359,11 +378,11 @@ lbl5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.435 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:29+03:00
+[INFO] Total time:  0.512 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:09+03:00
 [INFO] ------------------------------------------------------------------------
 lbl6
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -380,10 +399,10 @@ lbl6
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.437 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:30+03:00
+[INFO] Total time:  0.472 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:10+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -396,15 +415,17 @@ lbl6
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.crypto ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.bytes/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/gwt-crypto/gwt-crypto/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/gwt-crypto/gwt-crypto/maven-metadata.xml (342 B at 916 B/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.675 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:30+03:00
+[INFO] Total time:  0.833 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:11+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -421,10 +442,10 @@ lbl6
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.367 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:31+03:00
+[INFO] Total time:  0.422 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:11+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -436,18 +457,18 @@ lbl6
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.random ---
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.shape/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.hex/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.shape/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.692 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:32+03:00
+[INFO] Total time:  0.787 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:12+03:00
 [INFO] ------------------------------------------------------------------------
 lbl7
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -460,16 +481,18 @@ lbl7
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.time ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.cast/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/maven-metadata.xml (1.1 kB at 8.9 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.668 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:33+03:00
+[INFO] Total time:  0.783 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:13+03:00
 [INFO] ------------------------------------------------------------------------
 lbl8
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -482,16 +505,17 @@ lbl8
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.list ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.stream/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.time/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.658 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:33+03:00
+[INFO] Total time:  1.732 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:15+03:00
 [INFO] ------------------------------------------------------------------------
 lbl9
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -510,10 +534,10 @@ lbl9
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.629 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:34+03:00
+[INFO] Total time:  0.889 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:16+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -530,11 +554,11 @@ lbl9
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.417 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:35+03:00
+[INFO] Total time:  0.487 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:17+03:00
 [INFO] ------------------------------------------------------------------------
 lbl10
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -551,10 +575,10 @@ lbl10
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.373 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:35+03:00
+[INFO] Total time:  0.702 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:18+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -566,15 +590,16 @@ lbl10
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.thread ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.os/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.417 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:36+03:00
+[INFO] Total time:  1.202 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:20+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -586,15 +611,17 @@ lbl10
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.csv ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-csv/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-csv/maven-metadata.xml (727 B at 6.3 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.359 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:36+03:00
+[INFO] Total time:  0.648 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:20+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -612,10 +639,10 @@ lbl10
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.697 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:37+03:00
+[INFO] Total time:  0.813 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:21+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -632,10 +659,10 @@ lbl10
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.358 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:38+03:00
+[INFO] Total time:  0.419 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:22+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -652,10 +679,10 @@ lbl10
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.360 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:38+03:00
+[INFO] Total time:  0.407 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:23+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -667,15 +694,17 @@ lbl10
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.network ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codelibs/jcifs/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codelibs/jcifs/maven-metadata.xml (1.7 kB at 3.3 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.374 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:39+03:00
+[INFO] Total time:  0.911 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:24+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -687,15 +716,19 @@ lbl10
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.math ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/dpaukov/combinatoricslib3/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/maven-metadata.xml (603 B at 3.0 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/dpaukov/combinatoricslib3/maven-metadata.xml (590 B at 1.1 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.373 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:39+03:00
+[INFO] Total time:  0.922 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:25+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -712,11 +745,11 @@ lbl10
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.386 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:40+03:00
+[INFO] Total time:  0.391 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:25+03:00
 [INFO] ------------------------------------------------------------------------
 lbl11
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -733,10 +766,10 @@ lbl11
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.380 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:41+03:00
+[INFO] Total time:  0.387 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:26+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -754,11 +787,11 @@ lbl11
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.706 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:41+03:00
+[INFO] Total time:  1.115 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:27+03:00
 [INFO] ------------------------------------------------------------------------
 lbl12
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -770,16 +803,18 @@ lbl12
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/maven-metadata.xml (1.6 kB at 5.0 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.365 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:42+03:00
+[INFO] Total time:  0.708 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:28+03:00
 [INFO] ------------------------------------------------------------------------
 lbl13
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -791,15 +826,16 @@ lbl13
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.font ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.376 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:42+03:00
+[INFO] Total time:  0.956 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:29+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -816,10 +852,10 @@ lbl13
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.359 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:43+03:00
+[INFO] Total time:  0.410 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:30+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -831,15 +867,17 @@ lbl13
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.servlet.charset ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/maven-metadata.xml (632 B at 10 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.383 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:44+03:00
+[INFO] Total time:  0.450 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:30+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -856,10 +894,10 @@ lbl13
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.395 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:44+03:00
+[INFO] Total time:  0.404 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:31+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -871,15 +909,17 @@ lbl13
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.ftp ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-net/commons-net/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-net/commons-net/maven-metadata.xml (1.1 kB at 2.7 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.404 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:45+03:00
+[INFO] Total time:  0.802 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:32+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -897,10 +937,10 @@ lbl13
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.662 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:46+03:00
+[INFO] Total time:  1.026 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:33+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -912,15 +952,19 @@ lbl13
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.email ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/maven-metadata.xml (727 B at 4.1 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/maven-metadata.xml (541 B at 1.2 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.341 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:46+03:00
+[INFO] Total time:  0.873 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:34+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -937,10 +981,10 @@ lbl13
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.340 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:47+03:00
+[INFO] Total time:  0.463 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:35+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -952,16 +996,18 @@ lbl13
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.zip ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/lingala/zip4j/zip4j/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/lingala/zip4j/zip4j/maven-metadata.xml (1.9 kB at 29 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.373 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:47+03:00
+[INFO] Total time:  0.502 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:36+03:00
 [INFO] ------------------------------------------------------------------------
 lbl14
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -974,15 +1020,25 @@ lbl14
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.tomcat.embedded ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.servlet.charset/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/maven-metadata.xml (14 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/maven-metadata.xml (14 kB at 24 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/maven-metadata.xml (14 kB at 23 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/maven-metadata.xml (14 kB at 19 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/maven-metadata.xml (14 kB at 42 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.102 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:48+03:00
+[INFO] Total time:  1.382 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:37+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1005,10 +1061,10 @@ lbl14
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.639 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:49+03:00
+[INFO] Total time:  1.787 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:39+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1020,15 +1076,17 @@ lbl14
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.common ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.url/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.font/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.369 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:50+03:00
+[INFO] Total time:  0.988 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:41+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1040,16 +1098,18 @@ lbl14
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.profile ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bull/javamelody/javamelody-core/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bull/javamelody/javamelody-core/maven-metadata.xml (3.4 kB at 10 kB/s)
 [INFO] The following dependencies in Dependencies have newer versions:
 [INFO]   net.bull.javamelody:javamelody-core .................. 1.99.2 -> 2.4.0
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.348 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:50+03:00
+[INFO] Total time:  1.032 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:42+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1061,15 +1121,21 @@ lbl14
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.html ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.common/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.txt/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/maven-metadata.xml (1.8 kB at 24 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/maven-metadata.xml (762 B at 2.0 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.375 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:51+03:00
+[INFO] Total time:  1.201 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:44+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1081,16 +1147,24 @@ lbl14
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.json ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/nmorel/gwtjackson/gwt-jackson/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml (5.5 kB at 70 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml (6.9 kB at 89 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/maven-metadata.xml (5.5 kB at 66 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/nmorel/gwtjackson/gwt-jackson/maven-metadata.xml (1.1 kB at 3.7 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.384 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:51+03:00
+[INFO] Total time:  1.002 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:45+03:00
 [INFO] ------------------------------------------------------------------------
 lbl15
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1102,15 +1176,17 @@ lbl15
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.jgit ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/maven-metadata.xml (7.7 kB at 73 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.401 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:52+03:00
+[INFO] Total time:  0.719 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:46+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1127,10 +1203,10 @@ lbl15
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.376 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:52+03:00
+[INFO] Total time:  0.549 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:47+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1147,10 +1223,10 @@ lbl15
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.374 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:53+03:00
+[INFO] Total time:  0.652 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:48+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1167,11 +1243,11 @@ lbl15
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.379 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:53+03:00
+[INFO] Total time:  0.644 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:49+03:00
 [INFO] ------------------------------------------------------------------------
 lbl16
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1190,11 +1266,11 @@ lbl16
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.659 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:54+03:00
+[INFO] Total time:  0.905 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:50+03:00
 [INFO] ------------------------------------------------------------------------
 lbl17
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1207,19 +1283,23 @@ lbl17
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.sql.conn ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.profile/maven-metadata.xml
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.json/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.sanitize/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.resultset/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.obj/maven-metadata.xml
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.sanitize/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.json/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/maven-metadata.xml (4.0 kB at 36 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/maven-metadata.xml (13 kB at 54 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.694 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:55+03:00
+[INFO] Total time:  1.080 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:51+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1237,10 +1317,10 @@ lbl17
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.624 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:56+03:00
+[INFO] Total time:  0.834 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:52+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1258,10 +1338,10 @@ lbl17
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.646 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:57+03:00
+[INFO] Total time:  0.996 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:54+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1278,10 +1358,10 @@ lbl17
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.345 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:57+03:00
+[INFO] Total time:  0.492 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:54+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1298,10 +1378,10 @@ lbl17
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.346 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:58+03:00
+[INFO] Total time:  0.521 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:55+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1313,18 +1393,18 @@ lbl17
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.sql.select ---
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.group/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.order/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.group/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.709 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:59+03:00
+[INFO] Total time:  0.796 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:56+03:00
 [INFO] ------------------------------------------------------------------------
 lbl18
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1341,10 +1421,10 @@ lbl18
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.398 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:16:59+03:00
+[INFO] Total time:  0.403 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:57+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1356,15 +1436,16 @@ lbl18
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.sql.backup ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.zip/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.396 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:00+03:00
+[INFO] Total time:  0.921 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:58+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1382,10 +1463,10 @@ lbl18
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.766 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:01+03:00
+[INFO] Total time:  0.796 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:01:59+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1403,10 +1484,10 @@ lbl18
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.710 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:02+03:00
+[INFO] Total time:  0.873 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:00+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1423,10 +1504,10 @@ lbl18
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.505 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:02+03:00
+[INFO] Total time:  0.462 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:01+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1443,11 +1524,11 @@ lbl18
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.437 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:03+03:00
+[INFO] Total time:  0.494 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:01+03:00
 [INFO] ------------------------------------------------------------------------
 lbl19
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1460,17 +1541,20 @@ lbl19
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.servlet.upload ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.html/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.tomcat/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/maven-metadata.xml (600 B at 9.4 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.797 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:04+03:00
+[INFO] Total time:  0.991 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:03+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
-[INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
+[INFO] Processing build on daemon 9367dcdd
+[INFO] Scanning for projects...
 [INFO] 
 [INFO] Using the SmartBuilder implementation with a thread count of 15
 [INFO] 
@@ -1485,10 +1569,10 @@ lbl19
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.563 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:05+03:00
+[INFO] Total time:  0.603 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:04+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1505,10 +1589,10 @@ lbl19
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.468 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:06+03:00
+[INFO] Total time:  0.474 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:05+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1525,10 +1609,10 @@ lbl19
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.427 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:06+03:00
+[INFO] Total time:  0.476 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:05+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1545,10 +1629,10 @@ lbl19
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.455 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:07+03:00
+[INFO] Total time:  0.447 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:06+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1565,10 +1649,10 @@ lbl19
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.415 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:08+03:00
+[INFO] Total time:  0.483 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:07+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1585,11 +1669,11 @@ lbl19
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.448 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:08+03:00
+[INFO] Total time:  0.442 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:07+03:00
 [INFO] ------------------------------------------------------------------------
 lbl20
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1608,9 +1692,9 @@ lbl20
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  0.807 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:09+03:00
+[INFO] Finished at: 2025-02-02T09:02:09+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1628,11 +1712,11 @@ lbl20
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.871 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:11+03:00
+[INFO] Total time:  0.684 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:09+03:00
 [INFO] ------------------------------------------------------------------------
 lbl21
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon 9367dcdd
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1649,10 +1733,10 @@ lbl21
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.558 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:11+03:00
+[INFO] Total time:  0.401 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:10+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1670,10 +1754,10 @@ lbl21
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.882 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:13+03:00
+[INFO] Total time:  1.414 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:12+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1690,11 +1774,11 @@ lbl21
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.680 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:14+03:00
+[INFO] Total time:  0.698 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:13+03:00
 [INFO] ------------------------------------------------------------------------
 lbl22
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1706,16 +1790,19 @@ lbl22
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.sql.basic ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.insert/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.delete/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.sql.tbl/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.667 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:15+03:00
+[INFO] Total time:  0.897 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:14+03:00
 [INFO] ------------------------------------------------------------------------
 lbl23
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1727,15 +1814,17 @@ lbl23
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.servlet.gwt ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/maven-metadata.xml (748 B at 1.7 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.666 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:16+03:00
+[INFO] Total time:  0.915 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:15+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1752,11 +1841,11 @@ lbl23
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.539 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:16+03:00
+[INFO] Total time:  0.487 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:15+03:00
 [INFO] ------------------------------------------------------------------------
 lbl24
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1769,16 +1858,18 @@ lbl24
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.gui ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.color/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.icon/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.js/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.math/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.849 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:17+03:00
+[INFO] Total time:  0.894 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:17+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1790,16 +1881,28 @@ lbl24
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.gui.gl ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/goharsha/webgl4j/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/jsinterop/base/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/joml/joml-gwt/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/treblereel/datgui4g/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/treblereel/gwt/three4g/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/treblereel/gwt/three4g/maven-metadata.xml (831 B at 605 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/joml/joml-gwt/maven-metadata.xml (1.1 kB at 787 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/treblereel/datgui4g/maven-metadata.xml (471 B at 342 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/jsinterop/base/maven-metadata.xml (573 B at 409 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/goharsha/webgl4j/maven-metadata.xml (388 B at 277 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/treblereel/gwt/three4g-extensions/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/treblereel/gwt/three4g-extensions/maven-metadata.xml (698 B at 1.4 kB/s)
 [INFO] The following dependencies in Dependencies have newer versions:
 [INFO]   org.joml:joml-gwt ................................... 1.9.20 -> 1.10.1
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.678 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:18+03:00
+[INFO] Total time:  2.433 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:19+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1811,16 +1914,181 @@ lbl24
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.gui.visualization ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/gwt/google-apis/gwt-visualization/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.508 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:19+03:00
+[INFO] Total time:  0.862 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:20+03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Processing build on daemon b58df0d0
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --< com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.fontverter >--
+[INFO] Building com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.fontverter 1.2.22
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.fontverter ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-primitives/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/maven-metadata.xml
+[WARNING] Could not transfer metadata com.tugalsan:com.tugalsan.api.unsafe/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[WARNING] Could not transfer metadata commons-io:commons-io/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/maven-metadata.xml (1.0 kB at 11 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/maven-metadata.xml (3.8 kB at 43 kB/s)
+[WARNING] Could not transfer metadata org.apache.commons:commons-lang3/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[WARNING] Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/maven-metadata.xml (857 B at 2.8 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/maven-metadata.xml (2.7 kB at 8.7 kB/s)
+[WARNING] Could not transfer metadata org.reflections:reflections/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[WARNING] Could not transfer metadata org.apache.pdfbox:pdfbox/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-primitives/maven-metadata.xml (333 B at 874 B/s)
+[WARNING] Could not transfer metadata com.google.guava:guava-primitives/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [bintray-nitram509-jbrotli (http://dl.bintray.com/nitram509/jbrotli, default, releases+snapshots)]
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.slf4j:slf4j-api ........................... 2.0.16 -> 2.1.0-alpha1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.047 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:22+03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Processing build on daemon b58df0d0
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --< com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert >--
+[INFO] Building com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert 1.0.4
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/maven-metadata.xml (404 B at 832 B/s)
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.310 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:23+03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Processing build on daemon b58df0d0
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[WARNING] The project com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.pdf2dom:jar:2.0.4-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] -------< com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.pdf2dom >-------
+[INFO] Building com.tugalsan.api.file.pdf.pdfbox3.pdf2dom 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3.pdf2dom ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.fontverter/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.fontverter/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/commons-io/commons-io/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/org/apache/pdfbox/pdfbox/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/com/tugalsan/com.tugalsan.api.unsafe/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/org/slf4j/slf4j-api/maven-metadata.xml
+[INFO] Downloaded from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/org/apache/pdfbox/pdfbox/maven-metadata.xml (441 B at 220 B/s)
+[INFO] Downloaded from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/commons-io/commons-io/maven-metadata.xml (642 B at 321 B/s)
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.slf4j:slf4j-api ........................... 2.0.16 -> 2.1.0-alpha1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.405 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:27+03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Processing build on daemon b58df0d0
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent             [pom]
+[INFO] com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core               [jar]
+[INFO] com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox             [jar]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.2.4/maven-gpg-plugin-3.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.2.4/maven-gpg-plugin-3.2.4.pom (13 kB at 15 kB/s)
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 15
+[INFO] 
+[INFO] --< com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent >--
+[INFO] Building com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent 1.0.11-SNAPSHOT [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent ---
+[INFO] 
+[INFO] --< com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core >--
+[INFO] Building com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core 1.0.11-SNAPSHOT [2/3]
+[INFO]   from com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/maven-metadata.xml (1.3 kB at 29 kB/s)
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   junit:junit ......................................... 4.13.1 -> 4.13.2
+[INFO] 
+[INFO] 
+[INFO] --< com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox >--
+[INFO] Building com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox 1.0.11-SNAPSHOT [3/3]
+[INFO]   from com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/de/rototor/pdfbox/graphics2d/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/maven-metadata.xml
+[INFO] Downloading from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/org/apache/pdfbox/xmpbox/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/maven-metadata.xml (1.9 kB at 2.9 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/maven-metadata.xml (2.4 kB at 3.7 kB/s)
+[INFO] Downloaded from ApacheSnapshot: https://repository.apache.org/content/groups/snapshots/org/apache/pdfbox/xmpbox/maven-metadata.xml (441 B at 322 B/s)
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Average project wall time: 0,33s
+[INFO] Total concurrency: %7
+[INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
+[INFO] 	- com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox:1.0.11-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent:1.0.11-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core:1.0.11-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent 1.0.11-SNAPSHOT:
+[INFO] 
+[INFO] com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.parent SUCCESS [  0.457 s]
+[INFO] com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.core SUCCESS [  0.093 s]
+[INFO] com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox SUCCESS [  1.419 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.033 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:30+03:00
 [INFO] ------------------------------------------------------------------------
 lbl25
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1832,15 +2100,18 @@ lbl25
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.img ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.gui/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/coobird/thumbnailator/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/coobird/thumbnailator/maven-metadata.xml (933 B at 3.1 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.432 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:20+03:00
+[INFO] Total time:  1.058 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:32+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1852,15 +2123,22 @@ lbl25
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.docx ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.img/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-scratchpad/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/maven-metadata.xml (2.1 kB at 24 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi/maven-metadata.xml (2.1 kB at 24 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/poi/poi-scratchpad/maven-metadata.xml (2.1 kB at 5.6 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.498 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:21+03:00
+[INFO] Total time:  1.057 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:33+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1877,10 +2155,10 @@ lbl25
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.414 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:21+03:00
+[INFO] Total time:  0.472 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:34+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1892,16 +2170,40 @@ lbl25
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.pdfbox3 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf.pdfbox/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.pdf.pdfbox3.pdf2dom/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/maven-metadata.xml (380 B at 875 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/maven-metadata.xml (438 B at 1.0 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/maven-metadata.xml (1.5 kB at 3.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/maven-metadata.xml (786 B at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-examples/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/maven-metadata.xml (739 B at 2.5 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/maven-metadata.xml (461 B at 1.6 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/maven-metadata.xml (739 B at 2.4 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/maven-metadata.xml (2.3 kB at 8.0 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-examples/maven-metadata.xml (2.4 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcmail-jdk18on/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-tools/maven-metadata.xml (1.8 kB at 4.7 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcmail-jdk18on/maven-metadata.xml (668 B at 1.8 kB/s)
 [INFO] The following dependencies in Dependencies have newer versions:
 [INFO]   org.apache.logging.log4j:log4j-to-slf4j ........ 2.24.3 -> 3.0.0-beta2
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.376 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:22+03:00
+[INFO] Total time:  1.670 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:36+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1913,15 +2215,19 @@ lbl25
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.pdf.openpdf ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xhtmlrenderer/flying-saucer-pdf/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xhtmlrenderer/flying-saucer-pdf/maven-metadata.xml (2.2 kB at 7.3 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/maven-metadata.xml (2.8 kB at 9.1 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.434 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:22+03:00
+[INFO] Total time:  0.733 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:37+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1938,10 +2244,10 @@ lbl25
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.459 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:23+03:00
+[INFO] Total time:  0.481 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:37+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1958,10 +2264,10 @@ lbl25
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.415 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:24+03:00
+[INFO] Total time:  0.486 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:38+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1978,10 +2284,10 @@ lbl25
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.367 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:24+03:00
+[INFO] Total time:  0.604 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:39+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -1999,10 +2305,10 @@ lbl25
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.643 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:25+03:00
+[INFO] Total time:  0.772 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:40+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2014,16 +2320,20 @@ lbl25
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.file.zip7 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/sevenzipjbinding/sevenzipjbinding/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/maven-metadata.xml (1.3 kB at 2.3 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/sevenzipjbinding/sevenzipjbinding/maven-metadata.xml (400 B at 454 B/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.372 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:26+03:00
+[INFO] Total time:  1.355 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:42+03:00
 [INFO] ------------------------------------------------------------------------
 lbl26
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2035,15 +2345,16 @@ lbl26
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.captcha ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.servlet.url/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.427 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:27+03:00
+[INFO] Total time:  0.947 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:43+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2060,10 +2371,10 @@ lbl26
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.398 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:27+03:00
+[INFO] Total time:  0.475 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:44+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2075,15 +2386,16 @@ lbl26
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.input ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.file.sound/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.354 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:28+03:00
+[INFO] Total time:  0.847 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:45+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2100,10 +2412,10 @@ lbl26
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.414 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:28+03:00
+[INFO] Total time:  0.416 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:45+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2115,15 +2427,17 @@ lbl26
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.serialcom ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fazecast/jSerialComm/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fazecast/jSerialComm/maven-metadata.xml (2.0 kB at 26 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.364 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:29+03:00
+[INFO] Total time:  0.491 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:46+03:00
 [INFO] ------------------------------------------------------------------------
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2141,11 +2455,11 @@ lbl26
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.676 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:30+03:00
+[INFO] Total time:  0.709 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:47+03:00
 [INFO] ------------------------------------------------------------------------
 lbl27
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2163,11 +2477,11 @@ lbl27
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.720 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:31+03:00
+[INFO] Total time:  0.893 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:48+03:00
 [INFO] ------------------------------------------------------------------------
 lbl28
-[INFO] Processing build on daemon f030bcd9
+[INFO] Processing build on daemon b58df0d0
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] 
@@ -2179,14 +2493,15 @@ lbl28
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.api.desktop ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.loremipsum/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.api.console.jdk/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.894 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:17:32+03:00
+[INFO] Total time:  0.893 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:02:49+03:00
 [INFO] ------------------------------------------------------------------------
 lblEnd
 Finished

@@ -2,7 +2,7 @@ usage check_app.bat 0 ARROW_RIGHT check_app.txt
 look for "The following dependencies in Dependencies have newer versions"
 check_app...
 lbl0
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -21,9 +21,96 @@ lbl0
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.backup ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-codeserver/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/colt/colt/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-dev/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/maven-metadata.xml (1.5 kB at 5.7 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml (461 B at 1.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-user/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-servlet/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-dev/maven-metadata.xml (2.1 kB at 4.8 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/colt/colt/maven-metadata.xml (232 B at 523 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/jsinterop/jsinterop-annotations/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/web/bindery/requestfactory-apt/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-codeserver/maven-metadata.xml (1.2 kB at 2.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/web/bindery/requestfactory-client/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-servlet/maven-metadata.xml (2.1 kB at 8.7 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/gwt/gwt-user/maven-metadata.xml (2.1 kB at 8.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/web/bindery/requestfactory-server/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/jsinterop/jsinterop-annotations/maven-metadata.xml (538 B at 2.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/web/bindery/requestfactory-apt/maven-metadata.xml (1.2 kB at 5.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/validation/validation-api/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/web/bindery/requestfactory-client/maven-metadata.xml (1.2 kB at 4.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/maven-metadata.xml (934 B at 8.3 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/web/bindery/requestfactory-server/maven-metadata.xml (1.2 kB at 4.5 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/maven-metadata.xml (2.0 kB at 7.7 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/validation/validation-api/maven-metadata.xml (1.2 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/apache-jsp/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit/maven-metadata.xml (2.7 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/maven-metadata.xml (15 kB at 62 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/apache-jsp/maven-metadata.xml (9.0 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/maven-metadata.xml (14 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/maven-metadata.xml (12 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/maven-metadata.xml (15 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/maven-metadata.xml (15 kB at 46 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/maven-metadata.xml (15 kB at 45 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/maven-metadata.xml (15 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/maven-metadata.xml (15 kB at 51 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/maven-metadata.xml (14 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/maven-metadata.xml (15 kB at 54 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/maven-metadata.xml (14 kB at 50 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/maven-metadata.xml (14 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-codeserver/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-dev/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/maven-metadata.xml (7.9 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-servlet/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-dev/maven-metadata.xml (459 B at 1.2 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-codeserver/maven-metadata.xml (466 B at 1.2 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/maven-metadata.xml (7.9 kB at 21 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/maven-metadata.xml (15 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-servlet-jakarta/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-client/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-apt/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-server/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-servlet/maven-metadata.xml (463 B at 591 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-client/maven-metadata.xml (485 B at 723 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-server/maven-metadata.xml (485 B at 739 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/gwt-servlet-jakarta/maven-metadata.xml (407 B at 606 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-apt/maven-metadata.xml (482 B at 719 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-server-jakarta/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/w3c/css/sac/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gwtproject/web/bindery/requestfactory-server-jakarta/maven-metadata.xml (429 B at 1.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/tapestry/tapestry/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/maven-metadata.xml (1.6 kB at 6.5 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/maven-metadata.xml (1.6 kB at 6.2 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/maven-metadata.xml (1.6 kB at 6.0 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/tapestry/tapestry/maven-metadata.xml (1.2 kB at 3.8 kB/s)
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -55,8 +142,50 @@ lbl0
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
 [INFO] 
+[INFO] ------------< com.tugalsan:com.tugalsan.app.backup.shared >-------------
+[INFO] Building com.tugalsan.app.backup.shared 1.0-SNAPSHOT               [3/4]
+[INFO]   from com.tugalsan.app.backup-shared\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.backup.shared ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
+[INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
+[INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
+[INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
+[INFO]   commons-io:commons-io .................................. 2.4 -> 2.18.0
+[INFO]   javax.servlet:javax.servlet-api ....................... 3.1.0 -> 4.0.1
+[INFO]   javax.validation:validation-api .............. 1.0.0.GA -> 2.0.1.Final
+[INFO]   net.sourceforge.htmlunit:htmlunit ................... 2.55.0 -> 2.70.0
+[INFO]   org.eclipse.jetty:apache-jsp ............. 9.4.44.v20210927 -> 11.0.24
+[INFO]   org.eclipse.jetty:jetty-annotations ...... 9.4.44.v20210927 -> 11.0.24
+[INFO]   org.eclipse.jetty:jetty-continuation ...
+[INFO]                                     9.4.44.v20210927 -> 9.4.57.v20241219
+[INFO]   org.eclipse.jetty:jetty-http ....... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-io ......... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-jndi ....... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-plus ....... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-security ... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-server ..... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-servlet .......... 9.4.44.v20210927 -> 11.0.24
+[INFO]   org.eclipse.jetty:jetty-servlets ......... 9.4.44.v20210927 -> 11.0.24
+[INFO]   org.eclipse.jetty:jetty-util ....... 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty:jetty-webapp ........... 9.4.44.v20210927 -> 11.0.24
+[INFO]   org.eclipse.jetty:jetty-xml ........ 9.4.44.v20210927 -> 12.1.0.alpha1
+[INFO]   org.eclipse.jetty.websocket:websocket-api ...
+[INFO]                                     9.4.44.v20210927 -> 9.4.57.v20241219
+[INFO]   org.eclipse.jetty.websocket:websocket-common ...
+[INFO]                                     9.4.44.v20210927 -> 9.4.57.v20241219
+[INFO]   org.ow2.asm:asm ......................................... 9.6 -> 9.7.1
+[INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
+[INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
+[INFO] 
+[INFO] No dependencies in Dependencies have newer versions.
+[INFO] 
+[INFO] 
 [INFO] ------------< com.tugalsan:com.tugalsan.app.backup.client >-------------
-[INFO] Building com.tugalsan.app.backup.client 1.0-SNAPSHOT               [3/4]
+[INFO] Building com.tugalsan.app.backup.client 1.0-SNAPSHOT               [2/4]
 [INFO]   from com.tugalsan.app.backup-client\pom.xml
 [INFO] ------------------------------[ gwt-app ]-------------------------------
 [WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
@@ -75,7 +204,7 @@ lbl0
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.backup.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -106,48 +235,8 @@ lbl0
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
-[INFO] No dependencies in Dependencies have newer versions.
-[INFO] 
-[INFO] 
-[INFO] ------------< com.tugalsan:com.tugalsan.app.backup.shared >-------------
-[INFO] Building com.tugalsan.app.backup.shared 1.0-SNAPSHOT               [2/4]
-[INFO]   from com.tugalsan.app.backup-shared\pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.backup.shared ---
-[INFO] The following dependencies in Dependency Management have newer versions:
-[INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
-[INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
-[INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
-[INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
-[INFO]   commons-io:commons-io .................................. 2.4 -> 2.18.0
-[INFO]   javax.servlet:javax.servlet-api ....................... 3.1.0 -> 4.0.1
-[INFO]   javax.validation:validation-api .............. 1.0.0.GA -> 2.0.1.Final
-[INFO]   net.sourceforge.htmlunit:htmlunit ................... 2.55.0 -> 2.70.0
-[INFO]   org.eclipse.jetty:apache-jsp ............. 9.4.44.v20210927 -> 11.0.24
-[INFO]   org.eclipse.jetty:jetty-annotations ...... 9.4.44.v20210927 -> 11.0.24
-[INFO]   org.eclipse.jetty:jetty-continuation ...
-[INFO]                                     9.4.44.v20210927 -> 9.4.57.v20241219
-[INFO]   org.eclipse.jetty:jetty-http ....... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-io ......... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-jndi ....... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-plus ....... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-security ... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-server ..... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-servlet .......... 9.4.44.v20210927 -> 11.0.24
-[INFO]   org.eclipse.jetty:jetty-servlets ......... 9.4.44.v20210927 -> 11.0.24
-[INFO]   org.eclipse.jetty:jetty-util ....... 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty:jetty-webapp ........... 9.4.44.v20210927 -> 11.0.24
-[INFO]   org.eclipse.jetty:jetty-xml ........ 9.4.44.v20210927 -> 12.1.0.alpha1
-[INFO]   org.eclipse.jetty.websocket:websocket-api ...
-[INFO]                                     9.4.44.v20210927 -> 9.4.57.v20241219
-[INFO]   org.eclipse.jetty.websocket:websocket-common ...
-[INFO]                                     9.4.44.v20210927 -> 9.4.57.v20241219
-[INFO]   org.ow2.asm:asm ......................................... 9.6 -> 9.7.1
-[INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
-[INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
-[INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/elemental2/elemental2-core/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/elemental2/elemental2-core/maven-metadata.xml (647 B at 2.4 kB/s)
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -159,7 +248,7 @@ lbl0
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.backup.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -190,30 +279,32 @@ lbl0
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.backup.client/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.backup.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,25s
+[INFO] Average project wall time: 1,00s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
 [INFO] 	- com.tugalsan:com.tugalsan.app.backup:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.backup.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.backup.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.backup.client:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.backup 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.backup ............................ SUCCESS [  1.063 s]
-[INFO] com.tugalsan.app.backup.client ..................... SUCCESS [  0.179 s]
-[INFO] com.tugalsan.app.backup.shared ..................... SUCCESS [  0.680 s]
-[INFO] com.tugalsan.app.backup.server ..................... SUCCESS [  0.078 s]
+[INFO] com.tugalsan.app.backup ............................ SUCCESS [  3.736 s]
+[INFO] com.tugalsan.app.backup.client ..................... SUCCESS [  0.590 s]
+[INFO] com.tugalsan.app.backup.shared ..................... SUCCESS [  0.429 s]
+[INFO] com.tugalsan.app.backup.server ..................... SUCCESS [  0.590 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.641 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:01+03:00
+[INFO] Total time:  4.993 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:32+03:00
 [INFO] ------------------------------------------------------------------------
 lbl1
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -234,7 +325,7 @@ lbl1
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.calender ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -274,7 +365,7 @@ lbl1
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.calender-shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -326,7 +417,7 @@ lbl1
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.calender-client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -357,6 +448,7 @@ lbl1
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.calender-shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -368,7 +460,7 @@ lbl1
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.calender-server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -399,31 +491,32 @@ lbl1
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.calender-client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
 [INFO] 	- com.tugalsan:com.tugalsan.app.calender:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.calender-shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.calender-client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.calender-server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.calender-shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.calender 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.calender .......................... SUCCESS [  0.498 s]
-[INFO] com.tugalsan.app.calender-shared ................... SUCCESS [  0.294 s]
-[INFO] com.tugalsan.app.calender-client ................... SUCCESS [  0.100 s]
-[INFO] com.tugalsan.app.calender-server ................... SUCCESS [  0.065 s]
+[INFO] com.tugalsan.app.calender .......................... SUCCESS [  0.452 s]
+[INFO] com.tugalsan.app.calender-shared ................... SUCCESS [  0.336 s]
+[INFO] com.tugalsan.app.calender-client ................... SUCCESS [  0.394 s]
+[INFO] com.tugalsan.app.calender-server ................... SUCCESS [  0.339 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.069 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:03+03:00
+[INFO] Total time:  1.614 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:34+03:00
 [INFO] ------------------------------------------------------------------------
 lbl2
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -444,7 +537,7 @@ lbl2
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.cloud ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -484,7 +577,7 @@ lbl2
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.cloud-shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -536,7 +629,7 @@ lbl2
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.cloud-client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -567,6 +660,7 @@ lbl2
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.cloud-shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -578,7 +672,7 @@ lbl2
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.cloud-server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -609,31 +703,32 @@ lbl2
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.cloud-client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
+[INFO] 	- com.tugalsan:com.tugalsan.app.cloud-client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.cloud:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.cloud-shared:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.cloud-client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.cloud-server:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.cloud 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.cloud ............................. SUCCESS [  0.414 s]
-[INFO] com.tugalsan.app.cloud-shared ...................... SUCCESS [  0.297 s]
-[INFO] com.tugalsan.app.cloud-client ...................... SUCCESS [  0.103 s]
-[INFO] com.tugalsan.app.cloud-server ...................... SUCCESS [  0.075 s]
+[INFO] com.tugalsan.app.cloud ............................. SUCCESS [  0.445 s]
+[INFO] com.tugalsan.app.cloud-shared ...................... SUCCESS [  0.380 s]
+[INFO] com.tugalsan.app.cloud-client ...................... SUCCESS [  0.457 s]
+[INFO] com.tugalsan.app.cloud-server ...................... SUCCESS [  0.344 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.982 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:04+03:00
+[INFO] Total time:  1.709 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:36+03:00
 [INFO] ------------------------------------------------------------------------
 lbl3
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -654,7 +749,7 @@ lbl3
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.color ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -694,7 +789,7 @@ lbl3
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.color.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -748,7 +843,7 @@ lbl3
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.color.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -779,6 +874,7 @@ lbl3
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.color.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -790,7 +886,7 @@ lbl3
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.color.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -821,31 +917,32 @@ lbl3
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.color.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
+[INFO] 	- com.tugalsan:com.tugalsan.app.color.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.color:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.color.shared:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.color.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.color.server:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.color 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.color ............................. SUCCESS [  0.390 s]
-[INFO] com.tugalsan.app.color.shared ...................... SUCCESS [  0.267 s]
-[INFO] com.tugalsan.app.color.client ...................... SUCCESS [  0.083 s]
-[INFO] com.tugalsan.app.color.server ...................... SUCCESS [  0.065 s]
+[INFO] com.tugalsan.app.color ............................. SUCCESS [  0.475 s]
+[INFO] com.tugalsan.app.color.shared ...................... SUCCESS [  0.432 s]
+[INFO] com.tugalsan.app.color.client ...................... SUCCESS [  0.526 s]
+[INFO] com.tugalsan.app.color.server ...................... SUCCESS [  0.344 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.889 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:05+03:00
+[INFO] Total time:  1.876 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:38+03:00
 [INFO] ------------------------------------------------------------------------
 lbl4
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -866,7 +963,7 @@ lbl4
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.contact ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -906,7 +1003,7 @@ lbl4
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.contact.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -960,7 +1057,7 @@ lbl4
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.contact.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -991,6 +1088,7 @@ lbl4
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.contact.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -1002,7 +1100,7 @@ lbl4
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.contact.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1033,31 +1131,32 @@ lbl4
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.contact.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.contact:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.contact.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.contact.client:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.contact:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.contact.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.contact.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.contact 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.contact ........................... SUCCESS [  0.338 s]
-[INFO] com.tugalsan.app.contact.shared .................... SUCCESS [  0.260 s]
-[INFO] com.tugalsan.app.contact.client .................... SUCCESS [  0.081 s]
-[INFO] com.tugalsan.app.contact.server .................... SUCCESS [  0.063 s]
+[INFO] com.tugalsan.app.contact ........................... SUCCESS [  0.361 s]
+[INFO] com.tugalsan.app.contact.shared .................... SUCCESS [  0.293 s]
+[INFO] com.tugalsan.app.contact.client .................... SUCCESS [  0.483 s]
+[INFO] com.tugalsan.app.contact.server .................... SUCCESS [  0.348 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.812 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:06+03:00
+[INFO] Total time:  1.566 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:40+03:00
 [INFO] ------------------------------------------------------------------------
 lbl5
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -1078,7 +1177,7 @@ lbl5
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.database ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1118,7 +1217,7 @@ lbl5
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.database.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1172,7 +1271,7 @@ lbl5
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.database.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1203,6 +1302,7 @@ lbl5
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.database.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -1214,7 +1314,7 @@ lbl5
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.database.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1245,31 +1345,32 @@ lbl5
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.database.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
+[INFO] 	- com.tugalsan:com.tugalsan.app.database.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.database:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.database.shared:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.database.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.database.server:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.database 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.database .......................... SUCCESS [  0.340 s]
-[INFO] com.tugalsan.app.database.shared ................... SUCCESS [  0.271 s]
-[INFO] com.tugalsan.app.database.client ................... SUCCESS [  0.082 s]
-[INFO] com.tugalsan.app.database.server ................... SUCCESS [  0.059 s]
+[INFO] com.tugalsan.app.database .......................... SUCCESS [  0.365 s]
+[INFO] com.tugalsan.app.database.shared ................... SUCCESS [  0.342 s]
+[INFO] com.tugalsan.app.database.client ................... SUCCESS [  0.405 s]
+[INFO] com.tugalsan.app.database.server ................... SUCCESS [  0.330 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.822 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:07+03:00
+[INFO] Total time:  1.519 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:41+03:00
 [INFO] ------------------------------------------------------------------------
 lbl6
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -1290,7 +1391,7 @@ lbl6
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.download ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1330,7 +1431,7 @@ lbl6
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.download.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1382,7 +1483,7 @@ lbl6
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.download.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1413,6 +1514,7 @@ lbl6
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.download.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -1424,7 +1526,7 @@ lbl6
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.download.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1455,31 +1557,32 @@ lbl6
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.download.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.download:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.download.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.download.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.download.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.download:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.download.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.download 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.download .......................... SUCCESS [  0.358 s]
-[INFO] com.tugalsan.app.download.shared ................... SUCCESS [  0.278 s]
-[INFO] com.tugalsan.app.download.client ................... SUCCESS [  0.084 s]
-[INFO] com.tugalsan.app.download.server ................... SUCCESS [  0.057 s]
+[INFO] com.tugalsan.app.download .......................... SUCCESS [  0.399 s]
+[INFO] com.tugalsan.app.download.shared ................... SUCCESS [  0.285 s]
+[INFO] com.tugalsan.app.download.client ................... SUCCESS [  0.598 s]
+[INFO] com.tugalsan.app.download.server ................... SUCCESS [  0.560 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.849 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:08+03:00
+[INFO] Total time:  1.923 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:43+03:00
 [INFO] ------------------------------------------------------------------------
 lbl7
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -1500,7 +1603,7 @@ lbl7
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.file ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1540,7 +1643,7 @@ lbl7
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.file.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1594,7 +1697,7 @@ lbl7
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.file.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1625,6 +1728,7 @@ lbl7
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.file.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -1636,7 +1740,7 @@ lbl7
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.file.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1667,31 +1771,32 @@ lbl7
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.file.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.file:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.file.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.file.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.file.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.file:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.file.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.file 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.file .............................. SUCCESS [  0.333 s]
-[INFO] com.tugalsan.app.file.shared ....................... SUCCESS [  0.278 s]
-[INFO] com.tugalsan.app.file.client ....................... SUCCESS [  0.074 s]
-[INFO] com.tugalsan.app.file.server ....................... SUCCESS [  0.060 s]
+[INFO] com.tugalsan.app.file .............................. SUCCESS [  0.342 s]
+[INFO] com.tugalsan.app.file.shared ....................... SUCCESS [  0.283 s]
+[INFO] com.tugalsan.app.file.client ....................... SUCCESS [  0.460 s]
+[INFO] com.tugalsan.app.file.server ....................... SUCCESS [  0.388 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.823 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:09+03:00
+[INFO] Total time:  1.540 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:45+03:00
 [INFO] ------------------------------------------------------------------------
 lbl8
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -1712,7 +1817,7 @@ lbl8
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.login ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1752,7 +1857,7 @@ lbl8
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.login.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1804,7 +1909,7 @@ lbl8
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.login.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1835,6 +1940,7 @@ lbl8
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.login.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -1846,7 +1952,7 @@ lbl8
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.login.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1877,32 +1983,32 @@ lbl8
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
-[INFO] The following dependencies in Dependencies have newer versions:
-[INFO]   javax.servlet:javax.servlet-api ....................... 3.1.0 -> 4.0.1
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.login.client/maven-metadata.xml
+[INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.login:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.login.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.login.client:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.login:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.login.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.login.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.login 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.login ............................. SUCCESS [  0.349 s]
-[INFO] com.tugalsan.app.login.shared ...................... SUCCESS [  0.264 s]
-[INFO] com.tugalsan.app.login.client ...................... SUCCESS [  0.085 s]
-[INFO] com.tugalsan.app.login.server ...................... SUCCESS [  0.064 s]
+[INFO] com.tugalsan.app.login ............................. SUCCESS [  0.361 s]
+[INFO] com.tugalsan.app.login.shared ...................... SUCCESS [  0.274 s]
+[INFO] com.tugalsan.app.login.client ...................... SUCCESS [  0.778 s]
+[INFO] com.tugalsan.app.login.server ...................... SUCCESS [  0.316 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.830 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:10+03:00
+[INFO] Total time:  1.799 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:47+03:00
 [INFO] ------------------------------------------------------------------------
 lbl9
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -1923,7 +2029,7 @@ lbl9
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.network ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -1963,7 +2069,7 @@ lbl9
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.network.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2017,7 +2123,7 @@ lbl9
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.network.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2048,6 +2154,7 @@ lbl9
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.network.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -2059,7 +2166,7 @@ lbl9
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.network.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2090,31 +2197,32 @@ lbl9
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.network.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.network:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.network.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.network.client:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.network:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.network.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.network.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.network 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.network ........................... SUCCESS [  0.358 s]
-[INFO] com.tugalsan.app.network.shared .................... SUCCESS [  0.272 s]
-[INFO] com.tugalsan.app.network.client .................... SUCCESS [  0.075 s]
-[INFO] com.tugalsan.app.network.server .................... SUCCESS [  0.059 s]
+[INFO] com.tugalsan.app.network ........................... SUCCESS [  0.341 s]
+[INFO] com.tugalsan.app.network.shared .................... SUCCESS [  0.265 s]
+[INFO] com.tugalsan.app.network.client .................... SUCCESS [  0.658 s]
+[INFO] com.tugalsan.app.network.server .................... SUCCESS [  0.319 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.830 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:11+03:00
+[INFO] Total time:  1.653 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:49+03:00
 [INFO] ------------------------------------------------------------------------
 lbl10
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -2135,7 +2243,7 @@ lbl10
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase2d ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2175,7 +2283,7 @@ lbl10
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase2d.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2227,7 +2335,7 @@ lbl10
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase2d.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2258,6 +2366,7 @@ lbl10
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.showcase2d.shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -2269,7 +2378,7 @@ lbl10
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase2d.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2300,31 +2409,32 @@ lbl10
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.showcase2d.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,75s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.showcase2d:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.showcase2d.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.showcase2d.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.showcase2d.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.showcase2d:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.showcase2d.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.showcase2d 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.showcase2d ........................ SUCCESS [  0.386 s]
-[INFO] com.tugalsan.app.showcase2d.shared ................. SUCCESS [  0.270 s]
-[INFO] com.tugalsan.app.showcase2d.client ................. SUCCESS [  0.077 s]
-[INFO] com.tugalsan.app.showcase2d.server ................. SUCCESS [  0.061 s]
+[INFO] com.tugalsan.app.showcase2d ........................ SUCCESS [  0.345 s]
+[INFO] com.tugalsan.app.showcase2d.shared ................. SUCCESS [  0.263 s]
+[INFO] com.tugalsan.app.showcase2d.client ................. SUCCESS [  1.625 s]
+[INFO] com.tugalsan.app.showcase2d.server ................. SUCCESS [  1.197 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.869 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:12+03:00
+[INFO] Total time:  3.503 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:53+03:00
 [INFO] ------------------------------------------------------------------------
 lbl11
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -2345,7 +2455,7 @@ lbl11
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase3d ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2385,7 +2495,7 @@ lbl11
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase3d.shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2437,7 +2547,7 @@ lbl11
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase3d.client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2468,6 +2578,8 @@ lbl11
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.showcase3d.shared/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.lib.gl/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -2479,7 +2591,7 @@ lbl11
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.showcase3d.server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2510,31 +2622,32 @@ lbl11
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.showcase3d.client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,50s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
-[INFO] 	- com.tugalsan:com.tugalsan.app.showcase3d:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.showcase3d.shared:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.showcase3d.client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.showcase3d.server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.showcase3d:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.showcase3d.shared:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.showcase3d 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.showcase3d ........................ SUCCESS [  0.382 s]
-[INFO] com.tugalsan.app.showcase3d.shared ................. SUCCESS [  0.277 s]
-[INFO] com.tugalsan.app.showcase3d.client ................. SUCCESS [  0.083 s]
-[INFO] com.tugalsan.app.showcase3d.server ................. SUCCESS [  0.058 s]
+[INFO] com.tugalsan.app.showcase3d ........................ SUCCESS [  0.348 s]
+[INFO] com.tugalsan.app.showcase3d.shared ................. SUCCESS [  0.255 s]
+[INFO] com.tugalsan.app.showcase3d.client ................. SUCCESS [  0.862 s]
+[INFO] com.tugalsan.app.showcase3d.server ................. SUCCESS [  0.557 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.869 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:13+03:00
+[INFO] Total time:  2.071 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:55+03:00
 [INFO] ------------------------------------------------------------------------
 lbl12
-[INFO] Processing build on daemon 358480bc
+[INFO] Processing build on daemon ee969783
 [INFO] Scanning for projects...
 [INFO] BuildTimeEventSpy is registered.
 [INFO] ------------------------------------------------------------------------
@@ -2555,7 +2668,7 @@ lbl12
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.table ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2595,7 +2708,7 @@ lbl12
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.table-shared ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2649,7 +2762,7 @@ lbl12
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.table-client ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2680,6 +2793,7 @@ lbl12
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.table-shared/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] 
@@ -2691,7 +2805,7 @@ lbl12
 [INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ com.tugalsan.app.table-server ---
 [INFO] The following dependencies in Dependency Management have newer versions:
 [INFO]   com.google.code.findbugs:jsr305 ....................... 1.3.9 -> 3.0.2
-[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.11.0
+[INFO]   com.google.code.gson:gson ............................ 2.6.2 -> 2.12.1
 [INFO]   com.google.jsinterop:jsinterop-annotations ............ 2.0.0 -> 2.1.0
 [INFO]   com.ibm.icu:icu4j ....................................... 63.1 -> 76.1
 [INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
@@ -2722,28 +2836,29 @@ lbl12
 [INFO]   org.ow2.asm:asm-commons ................................. 9.6 -> 9.7.1
 [INFO]   org.ow2.asm:asm-util .................................... 9.6 -> 9.7.1
 [INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tugalsan/com.tugalsan.app.table-client/maven-metadata.xml
 [INFO] No dependencies in Dependencies have newer versions.
 [INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] Average project wall time: 0,00s
+[INFO] Average project wall time: 0,25s
 [INFO] Total concurrency: %7
 [INFO] Bottleneck projects that decrease concurrency: (run build with -Dsmartbuilder.profiling=true for further details)
+[INFO] 	- com.tugalsan:com.tugalsan.app.table-server:1.0-SNAPSHOT
+[INFO] 	- com.tugalsan:com.tugalsan.app.table-client:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.table:1.0-SNAPSHOT
 [INFO] 	- com.tugalsan:com.tugalsan.app.table-shared:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.table-client:1.0-SNAPSHOT
-[INFO] 	- com.tugalsan:com.tugalsan.app.table-server:1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for com.tugalsan.app.table 1.0-SNAPSHOT:
 [INFO] 
-[INFO] com.tugalsan.app.table ............................. SUCCESS [  0.361 s]
-[INFO] com.tugalsan.app.table-shared ...................... SUCCESS [  0.246 s]
-[INFO] com.tugalsan.app.table-client ...................... SUCCESS [  0.074 s]
-[INFO] com.tugalsan.app.table-server ...................... SUCCESS [  0.056 s]
+[INFO] com.tugalsan.app.table ............................. SUCCESS [  0.374 s]
+[INFO] com.tugalsan.app.table-shared ...................... SUCCESS [  0.259 s]
+[INFO] com.tugalsan.app.table-client ...................... SUCCESS [  0.637 s]
+[INFO] com.tugalsan.app.table-server ...................... SUCCESS [  0.717 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.817 s (Wall Clock)
-[INFO] Finished at: 2025-01-28T13:07:14+03:00
+[INFO] Total time:  2.045 s (Wall Clock)
+[INFO] Finished at: 2025-02-02T09:07:57+03:00
 [INFO] ------------------------------------------------------------------------
 lblEnd
 Finished
