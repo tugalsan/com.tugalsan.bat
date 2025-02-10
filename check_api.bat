@@ -35,13 +35,8 @@ cd c:\git\api\com.tugalsan.api.shape
 cmd /c mvnd versions:display-dependency-updates
 
 
-:lbl1.1
-echo lbl1.1
-cd c:\git\api\com.tugalsan.api.unsafe
-cmd /c mvnd versions:display-dependency-updates
-
-:lbl1.2
-echo lbl1.2
+:lbl1
+echo lbl1
 cd c:\git\api\com.tugalsan.api.union
 cmd /c mvnd versions:display-dependency-updates
 
