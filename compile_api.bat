@@ -55,6 +55,8 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl5
 echo lbl5
+cd c:\git\api\com.tugalsan.api.ocr.tesseract
+cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.gif
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.os.sensor
@@ -163,6 +165,8 @@ cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.profile
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.html
+cmd /c mvnd clean install -DskipTests -q
+cd c:\git\api\com.tugalsan.api.file.html.selenium
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.json
 cmd /c mvnd clean install -DskipTests -q

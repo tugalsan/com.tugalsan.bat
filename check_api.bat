@@ -57,6 +57,8 @@ cmd /c mvnd versions:display-dependency-updates
 
 :lbl5
 echo lbl5
+cd c:\git\api\com.tugalsan.api.ocr.tesseract
+cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.gif
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.os.sensor
@@ -165,6 +167,8 @@ cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.profile
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.html
+cmd /c mvnd versions:display-dependency-updates
+cd c:\git\api\com.tugalsan.api.file.html.selenium
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.json
 cmd /c mvnd versions:display-dependency-updates
