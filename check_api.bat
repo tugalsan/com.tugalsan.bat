@@ -278,8 +278,6 @@ cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.pdf2dom
 cmd /c mvnd versions:display-dependency-updates
-cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf
-cmd /c mvnd versions:display-dependency-updates
 
 
 :lbl25
@@ -307,6 +305,8 @@ cmd /c mvnd versions:display-dependency-updates
 
 :lbl26
 echo lbl26
+cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf
+cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.captcha
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.id
