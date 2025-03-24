@@ -276,8 +276,6 @@ cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.pdf2dom.gfxassert
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.pdf2dom
 cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf
-cmd /c mvnd clean install -DskipTests -q
 
 
 :lbl25
@@ -287,8 +285,6 @@ cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.docx
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.html.chart
-cmd /c mvnd clean install -DskipTests -q
-cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.file.pdf.openpdf
 cmd /c mvnd clean install -DskipTests -q
@@ -305,6 +301,8 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl26
 echo lbl26
+cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf
+cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.captcha
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.id
@@ -321,6 +319,8 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl27
 echo lbl27
+cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3
+cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.console.jdk
 cmd /c mvnd clean install -DskipTests -q
 
