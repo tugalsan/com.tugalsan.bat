@@ -14,11 +14,13 @@ c:
 cd c:\git
 
 echo TOTAL 28
+:set total_steps=%28
 
 goto lbl%~1
 
 :lbl0
 echo lbl0
+:call :show_progress 0 %%total_steps
 cd c:\git\api\com.tugalsan.api.gwt.jdk
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.charset
@@ -34,6 +36,7 @@ cmd /c mvnd clean install -DskipTests -q
 
 
 :lbl1
+:call :show_progress 0 %%total_steps
 echo lbl1
 cd c:\git\api\com.tugalsan.api.union
 cmd /c mvnd clean install -DskipTests -q
@@ -300,7 +303,7 @@ cd c:\git\api\com.tugalsan.api.file.zip7
 cmd /c mvnd clean install -DskipTests -q
 
 :lbl26
-echo lbl26
+:echo lbl26
 cd c:\git\api\com.tugalsan.api.file.pdf.pdfbox3.openhtmltopdf
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.captcha
@@ -337,3 +340,13 @@ exit /b
 
 :lbl
 echo You did not supply any arguments & pause
+:exit /b
+
+:show_progress
+:setlocal EnableDelayedExpansion
+:set current_step=%1
+:set total_steps=%2
+:set /a "progress=(current_step * 100) / total_steps"
+:set /p ".=Progress: !progress!%%!CR!" <nul
+:if !progress! equ 100 echo.
+:exit /b
