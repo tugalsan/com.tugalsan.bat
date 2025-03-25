@@ -1,4 +1,4 @@
-:@ECHO OFF
+@ECHO OFF
 echo compile_lib...
 c:
 cd c:\git

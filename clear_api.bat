@@ -86,6 +86,8 @@ IF EXIST %F% RMDIR /S /Q %F%
 echo API05
 SET F=c:\git\api\com.tugalsan.api.file.tree\target
 IF EXIST %F% RMDIR /S /Q %F%
+cd c:\git\api\com.tugalsan.api.file.libreoffice\target
+IF EXIST %F% RMDIR /S /Q %F%
 SET F=c:\git\api\com.tugalsan.api.file.csv\target
 IF EXIST %F% RMDIR /S /Q %F%
 SET F=c:\git\api\com.tugalsan.api.storage.cookie\target

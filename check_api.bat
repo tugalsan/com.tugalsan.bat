@@ -59,6 +59,8 @@ cmd /c mvnd versions:display-dependency-updates
 echo lbl5
 cd c:\git\api\com.tugalsan.api.ocr.tesseract
 cmd /c mvnd versions:display-dependency-updates
+cd c:\git\api\com.tugalsan.api.file.libreoffice
+cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.file.gif
 cmd /c mvnd versions:display-dependency-updates
 cd c:\git\api\com.tugalsan.api.os.sensor
