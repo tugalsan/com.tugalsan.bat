@@ -40,6 +40,8 @@ cmd /c mvnd clean install -DskipTests -q
 echo lbl1
 cd c:\git\api\com.tugalsan.api.union
 cmd /c mvnd clean install -DskipTests -q
+cd c:\git\api\com.tugalsan.api.file.img.code
+cmd /c mvnd clean install -DskipTests -q
 
 :lbl2
 echo lbl2
