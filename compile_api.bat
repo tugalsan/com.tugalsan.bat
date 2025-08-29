@@ -211,6 +211,8 @@ cmd /c mvnd clean install -DskipTests -q
 
 :lbl18
 echo lbl18
+cd c:\git\api\com.tugalsan.api.sql.distinct
+cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.tomcat
 cmd /c mvnd clean install -DskipTests -q
 cd c:\git\api\com.tugalsan.api.sql.backup
